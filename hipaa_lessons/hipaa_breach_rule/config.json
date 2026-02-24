@@ -1,0 +1,1259 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "dc404da7-5430-4da3-88b5-458f4d63ec7a",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "dc404da7-5430-4da3-88b5-458f4d63ec7a"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": true,
+				"title": "**Breach and Enforcement**",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "d987c5ea-b90a-4f0d-bb4b-5925f81ed3de",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "d987c5ea-b90a-4f0d-bb4b-5925f81ed3de"
+			},
+			"data": {
+				"content": "## <center><a href=\"https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html\">HHS</a> has a narrow definition of a breach, as it relates to PHI: <br><br>\n## <center> _“an impermissible use or disclosure under the Privacy Rule that compromises the security or privacy of the protected health information\"_",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "**What is a Breach?**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "b064d0b8-dbbe-4702-8152-7bdbceaafc30",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "A breach is an impermissible use or disclosure under the Privacy Rule that compromises the security or privacy of the protected health information.",
+							"content": "impermissible",
+							"questionId": "4f7533db-d5f6-4c1d-8dcd-adb1fa6ca151",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "disclosure",
+								"correct": false,
+								"answerId": "01a9da0d-1d64-44c6-a27f-8940c033beeb",
+								"type": "text"
+							},
+							{
+								"content": "compromises",
+								"correct": false,
+								"answerId": "e6fc28a5-be7e-4439-8e0f-9cf315a4d56a",
+								"type": "text"
+							},
+							{
+								"content": "unpredictable",
+								"correct": false,
+								"answerId": "cbd16fbb-166b-49a5-b11c-856439fafa85",
+								"type": "text"
+							},
+							{
+								"content": "increases",
+								"correct": false,
+								"answerId": "c2006f08-a131-448c-aa8d-eecc2ce6a2a9",
+								"type": "text"
+							},
+							{
+								"content": "encryption",
+								"correct": false,
+								"answerId": "6cf0db05-5821-45e9-b2e5-01ca8a28967e",
+								"type": "text"
+							},
+							{
+								"content": "impermissible",
+								"correct": true,
+								"answerId": "7f945d79-15dd-4583-95d4-23d9a521bdab",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "A breach is an impermissible use or disclosure under the Privacy Rule that compromises the security or privacy of the protected health information.",
+							"content": "disclosure",
+							"questionId": "a84db307-9fd4-454e-9bf9-0f8f858aa267",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "impermissible",
+								"correct": false,
+								"answerId": "427368e2-666b-43d0-889b-943916d353a8",
+								"type": "text"
+							},
+							{
+								"content": "compromises",
+								"correct": false,
+								"answerId": "0eb6ee4c-6053-44e2-9664-d300b4cf2ace",
+								"type": "text"
+							},
+							{
+								"content": "unpredictable",
+								"correct": false,
+								"answerId": "7705121f-b7e8-4943-9a38-4efd4737bafb",
+								"type": "text"
+							},
+							{
+								"content": "increases",
+								"correct": false,
+								"answerId": "bbd8b35f-dac2-47c4-9906-afb79c4ed587",
+								"type": "text"
+							},
+							{
+								"content": "encryption",
+								"correct": false,
+								"answerId": "d30f6411-31f3-4be9-9ccb-6674c7df3d7a",
+								"type": "text"
+							},
+							{
+								"content": "disclosure",
+								"correct": true,
+								"answerId": "37016a54-2ad1-48b1-a736-4248d942e614",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "A breach is an impermissible use or disclosure under the Privacy Rule that compromises the security or privacy of the protected health information.",
+							"content": "compromises",
+							"questionId": "f50c833a-911a-468b-9fa8-eb29f40fc79f",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "impermissible",
+								"correct": false,
+								"answerId": "90df5ee5-28db-4978-8d9a-777d5328ac7e",
+								"type": "text"
+							},
+							{
+								"content": "disclosure",
+								"correct": false,
+								"answerId": "9ea43442-ce0e-4d17-a2f1-b1c363fabcc5",
+								"type": "text"
+							},
+							{
+								"content": "unpredictable",
+								"correct": false,
+								"answerId": "dfae0b37-a568-4bac-89c8-af81d89a7cdc",
+								"type": "text"
+							},
+							{
+								"content": "increases",
+								"correct": false,
+								"answerId": "315a5a3e-a00a-402f-b85f-cface2fdec48",
+								"type": "text"
+							},
+							{
+								"content": "encryption",
+								"correct": false,
+								"answerId": "aed7b824-6974-4125-9d5b-f5a1641fa040",
+								"type": "text"
+							},
+							{
+								"content": "compromises",
+								"correct": true,
+								"answerId": "cf2742b5-c9ca-4bde-bdd0-19a8095205a8",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "b064d0b8-dbbe-4702-8152-7bdbceaafc30"
+			},
+			"data": {
+				"words": [
+					"impermissible",
+					"disclosure",
+					"compromises",
+					"unpredictable",
+					"increases",
+					"encryption"
+				],
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "**ANY** unauthorized disclosure of PHI is a violation - a breach - under HIPAA.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "A breach is an impermissible use or disclosure under the Privacy Rule that compromises the security or privacy of the protected health information.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "3ffe22f7-c95d-4809-bdb0-93c9cc605c23",
+			"type": "text-sequence",
+			"subtype": "text-sequence",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Sequence",
+			"templateDescription": "Display a sequence of text",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "3ffe22f7-c95d-4809-bdb0-93c9cc605c23"
+			},
+			"data": {
+				"prompt": "Read more",
+				"label": "Step",
+				"canGoBack": true,
+				"doneText": "Next",
+				"content": [
+					"# Records may be...",
+					"## stolen intentionally",
+					"## lost from improper IT procedures",
+					"## destroyed when a pipe bursts and destroys equipment (environmental) - compounded when there is no backup (human error)",
+					"## viewed by an unauthorized person (e.g., another patient “shoulder surfing” and viewing someone else's PHI (misuse)",
+					"## security credentials stolen through phishing or social engineering (more about these in the next lesson)"
+				],
+				"title": "So, what's a breach look like?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "53da28c7-1d9a-4c2b-a43b-a6eec479d901",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Is Sam posting a picture of a patient's unique tattoo to a social media site a breach?",
+							"questionId": "f5dee29e-9f63-47f8-97c1-3f63426bb4bf",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Yes",
+								"correct": true,
+								"answerId": "0a473ccf-895a-4de5-8c60-df3a653dcbfa",
+								"type": "text"
+							},
+							{
+								"content": "No",
+								"correct": false,
+								"answerId": "c708ac51-da04-41a9-96ae-31c493a93fa3",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "53da28c7-1d9a-4c2b-a43b-a6eec479d901"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "67947264-243a-4a8b-89a2-a7ec1ac4cc5f",
+						"content": "Yes",
+						"correct": true
+					},
+					{
+						"id": "19368d36-2d92-4a2f-ad51-698bb4e8516d",
+						"content": "No",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "If the design of the tattoo is **sufficiently unique** that it can identify a person in a given context - and the context can be a community (the only tattoo of a pink badger wearing sunglasses and a Rolling Stones pin in a town of 300, or nationwide if the tattoo is the person's name and nickname -  it's a **breach.**",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "\n",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Is Sam posting a picture of a patient's unique tattoo to a social media site a breach?",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "6dd5a24b-e2bc-41e5-aa2f-5187a1a904c5",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "6dd5a24b-e2bc-41e5-aa2f-5187a1a904c5"
+			},
+			"data": {
+				"content": " ## <center>  Well, it’s pretty bad, according to the <a href=\"https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf\">US HHS Department of Civil Rights.</a>",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "How big is the PHI breach problem?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "4cf28663-bd34-4268-a3b5-155ec3b3be29",
+			"type": "dial-distribution",
+			"subtype": "dial-distribution",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Dial (Distribution)",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"content": "## <center>For 2021, by 22 February, the HHS Office of Civil Rights reported how many records (to the nearest million)  were currently under investigation for breaches?",
+							"questionId": "a72d0587-69f3-43a4-a286-3745ca3151ec",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "0",
+								"correct": false,
+								"answerId": "bc726f32-5f80-4443-93d1-24f71e17dd81",
+								"type": "number"
+							},
+							{
+								"content": "1",
+								"correct": false,
+								"answerId": "6e690935-9e40-4c1f-b817-91aff50e3571",
+								"type": "number"
+							},
+							{
+								"content": "3",
+								"correct": false,
+								"answerId": "d685caff-6a1b-47f3-94fd-6a1cce0fceb4",
+								"type": "number"
+							},
+							{
+								"content": "4",
+								"correct": false,
+								"answerId": "d1cdb1b2-4feb-4e37-909c-8815d32aaed8",
+								"type": "number"
+							},
+							{
+								"content": "5",
+								"correct": false,
+								"answerId": "85b2d525-045c-467b-b0b3-8e4011cae0aa",
+								"type": "number"
+							},
+							{
+								"content": "6",
+								"correct": false,
+								"answerId": "30b1f3e9-dbd7-46a6-8e5e-772cd3438a14",
+								"type": "number"
+							},
+							{
+								"content": "7",
+								"correct": false,
+								"answerId": "b8ba97b8-3e03-4326-bc54-2fd60fb7ae0a",
+								"type": "number"
+							},
+							{
+								"content": "8",
+								"correct": false,
+								"answerId": "cea8b1e9-e152-4008-a222-343159bc384a",
+								"type": "number"
+							},
+							{
+								"content": "2",
+								"correct": true,
+								"answerId": "ad920f75-3b09-457b-a193-c0b0cceef89c",
+								"type": "number"
+							}
+						]
+					}
+				],
+				"slideId": "4cf28663-bd34-4268-a3b5-155ec3b3be29"
+			},
+			"data": {
+				"dial": {
+					"correct": 2,
+					"incorrect": [
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"prefix": "",
+					"suffix": ""
+				},
+				"distribution": "Linear",
+				"overlap": false,
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "Scary - nearly **2,000,000** people may have had their private information inappropriately disclosed.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag to set the correct value",
+				"title": "## <center>For 2021, by 22 February, the HHS Office of Civil Rights reported how many records (to the nearest million)  were currently under investigation for breaches?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "2f502e72-9104-48d1-8bd9-40417eabbddf",
+			"type": "slider",
+			"subtype": "year",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Slider",
+			"templateDescription": "Slide to the correct value",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"content": "What was the largest HIPAA fine ever paid (in millions) to OCR?",
+							"questionId": "0d690a09-fc0d-4097-b712-f6f7ed6c3b2b",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "16",
+								"correct": true,
+								"answerId": "077c3310-a824-40a9-9ba6-d7b2aafda018",
+								"type": "number"
+							},
+							{
+								"correct": false,
+								"answerId": "c611d81a-df2b-4f31-80fc-7579949ef1bf",
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				],
+				"slideId": "2f502e72-9104-48d1-8bd9-40417eabbddf"
+			},
+			"data": {
+				"slider": {
+					"min": 0,
+					"max": 20,
+					"prefix": "",
+					"suffix": "",
+					"increment": 2,
+					"decimals": 0,
+					"labels": 10
+				},
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "In 2019, Anthem paid **$16 million** for a breach that affected 79 million patient records.\n\nhttps://www.hhs.gov/about/news/2018/10/15/anthem-pays-ocr-16-million-record-hipaa-settlement-following-largest-health-data-breach-history.html",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": 16
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Slide to the correct value",
+				"title": "What was the largest HIPAA fine ever paid (in millions) to OCR?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "0c6e3d09-c3f4-47dd-81a9-0f1ffe967514",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "0c6e3d09-c3f4-47dd-81a9-0f1ffe967514"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "fit_content_assets/htai8tf2xtil1qdebovv.jpg",
+						"caption": "# Despite safeguards, a breach may occur."
+					},
+					{
+						"image": "fit_content_assets/iro8diiwv9vde2bc8jsb.jpg",
+						"caption": "# A CE must, regardless of size..."
+					},
+					{
+						"image": "fit_content_assets/sfxntqeimzaldfoodt50.jpg",
+						"caption": "# report a breach to HHS through the OCR portal **AND**..."
+					},
+					{
+						"image": "fit_content_assets/c77fvmk6fs6yqvnsx9ri.jpg",
+						"caption": "# notify, without unreasonable delay, each affected individual\n- ## in writing by first-class mail\n- ## e-mail if the affected individual has agreed to receive such notices electronically"
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "35feb3cc-67b6-4370-be95-9aed9e971e68",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select the 2 correct answers\n",
+							"content": "Under the Breach Rule, patients may be notified of a breach by:",
+							"questionId": "0e1972eb-0674-4ff8-81a3-2fe50f9c3891",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "In writing by first-class mail",
+								"correct": true,
+								"answerId": "183ab6e0-0d1b-4da6-843a-bed0d50fa2dd",
+								"type": "text"
+							},
+							{
+								"content": "Email - if the patient has opted in for that",
+								"correct": true,
+								"answerId": "b2626b65-7038-48ba-a032-8080547fc40c",
+								"type": "text"
+							},
+							{
+								"content": "Telephone call",
+								"correct": false,
+								"answerId": "938de0f3-ec57-4e16-b1e0-bbd9403a216d",
+								"type": "text"
+							},
+							{
+								"content": "Text message",
+								"correct": false,
+								"answerId": "af902645-70aa-4152-82b1-e09453d77ec8",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "35feb3cc-67b6-4370-be95-9aed9e971e68"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 3,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "16210297-35f6-48f5-a73c-8f92e33e3e55",
+						"content": "In writing by first-class mail",
+						"correct": true
+					},
+					{
+						"id": "5066efd4-677f-4ff7-89e6-3a38ba242641",
+						"content": "Email - if the patient has opted in for that",
+						"correct": true
+					},
+					{
+						"id": "41a29dde-5aff-4189-bd01-7d7e115404c6",
+						"content": "Telephone call",
+						"correct": false
+					},
+					{
+						"id": "bae9c2b5-12c5-4918-9da0-b5690e846eff",
+						"content": "Text message",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "HIPAA considers a breach to be so important that each affected individual must be individually contacted using either **first class printed notification**, or by **email** (but only if the patient has **authorized** emails as a channel for **communication**.)",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the 2 correct answers",
+				"title": "Under the Breach Rule, patients may be notified of a breach by:",
+				"titleType": "text",
+				"subtitle": "Select the 2 correct answers\n",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "19c99352-9637-46e3-9315-d2228bf839cc",
+			"type": "comparison",
+			"subtype": "reveal-further-information",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Comparison",
+			"templateDescription": "Juxtapose two items in a slider",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "19c99352-9637-46e3-9315-d2228bf839cc"
+			},
+			"data": {
+				"before": {
+					"contentType": "text",
+					"content": "# **Security Breach**\n",
+					"label": null
+				},
+				"after": {
+					"contentType": "text",
+					"content": "## A security breach is any incident that results in unauthorized access of data, applications, services, networks and/or devices by bypassing their underlying security mechanisms. <br><br>",
+					"label": "## A security breach occurs when an individual or an application illegitimately enters a private, confidential or unauthorized logical IT perimeter.\n\nhttps://www.techopedia.com/definition/29060/security-breach"
+				},
+				"startPosition": "Before - Start with the first section visible",
+				"prompt": "Drag bar R to L reveal the content",
+				"doneText": "Next",
+				"title": "Although the HHS definition focuses on PHI; breaches have a broader context, which gives a better “Big Picture”.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "24574742-bd23-47fd-a6a5-dd14617aeb1a",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 12,
+			"displayIndex": 12,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "24574742-bd23-47fd-a6a5-dd14617aeb1a"
+			},
+			"data": {
+				"content": "# <center>Verizon has an annual data breach report (see Resources lesson), and its classification system is useful for understanding the nature of vulnerabilities.",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "f415013b-adf1-425d-9367-47b5600cebdf",
+			"type": "image-collection",
+			"subtype": "image-collection",
+			"name": 13,
+			"displayIndex": 13,
+			"templateName": "Image collection",
+			"templateDescription": "Select an image to see more detail",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "f415013b-adf1-425d-9367-47b5600cebdf"
+			},
+			"data": {
+				"prompt": "Select each image for more details",
+				"background": "",
+				"lightbox": true,
+				"images": [
+					{
+						"content": "# External - threats that arise from outside the organization trying to penetrate its devices and data",
+						"image": "fit_content_assets/uu3ekasopu6vdow313wi.jpg",
+						"narration": null
+					},
+					{
+						"content": "# Internal - threats arising from within the organization, either from human error or malicious intent",
+						"image": "fit_content_assets/jdxwpea3rv7v5g69aajc.jpg",
+						"narration": null
+					}
+				],
+				"doneText": "Next",
+				"title": "A useful way of classifying risks - also known as vulnerabilities - is simply two categories:",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "c2b87dbd-1221-4782-8b12-d28db7ff7f07",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 14,
+			"displayIndex": 14,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "c2b87dbd-1221-4782-8b12-d28db7ff7f07"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "Any software intended to corrupt, destroy, damage, steal or compromise data or devices (e.g., a virus or ransomware).",
+						"title": "Malware (MALicious softWARE)"
+					},
+					{
+						"content": "An attempt to gain unauthorized access (compromising or bypassing security) to a computer or network. ",
+						"title": "Hacking"
+					},
+					{
+						"content": "Manipulating people to gain important security or confidential information. (e.g., phishing - masquerading as a legitimate entity to steal personal information)",
+						"title": "Social"
+					},
+					{
+						"content": "A person, typically a trusted employee, who exploits their role to inappropriately access and use information. (e.g., an employee sells information to personal injury lawyers)",
+						"title": "Misuse"
+					},
+					{
+						"content": "Requires physical access to a device or network under threat (can include theft, intentional destruction, tampering, surveillance). (e.g., a disgruntled employee destroying a server)",
+						"title": "Physical"
+					}
+				],
+				"title": "Next, Verizon classifies breaches into the following major categories:",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "f5bdc28b-0d7b-4156-b524-ce7c19e88512",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 15,
+			"displayIndex": 15,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Which of the following is an example of a \"Social\" breach?",
+							"questionId": "a6b0798b-2fbf-4557-ae29-3785b57d2189",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Computer virus installed during software upgrade",
+								"correct": false,
+								"answerId": "226073c2-d05f-405c-b0ba-dd39724725ec",
+								"type": "text"
+							},
+							{
+								"content": "Destruction of data by a disgruntled employee",
+								"correct": false,
+								"answerId": "ef2e30ec-3f5c-4a3d-814b-6963fa34479c",
+								"type": "text"
+							},
+							{
+								"content": "Email claiming to be from a government official requesting PHI for public health purposes",
+								"correct": true,
+								"answerId": "d9e3f41e-ba13-4cca-9153-9a528674f792",
+								"type": "text"
+							},
+							{
+								"content": "Employee's stolen keys used for unauthorized entry",
+								"correct": false,
+								"answerId": "c208c132-5a53-4540-a11a-9bc51ace8b0b",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "f5bdc28b-0d7b-4156-b524-ce7c19e88512"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "9c28628c-c04a-495c-8fb2-6a666eaaf83b",
+						"content": "Computer virus installed during software upgrade",
+						"correct": false
+					},
+					{
+						"id": "0e9d16e1-1e05-441c-a7e2-044ef7f075b0",
+						"content": "Destruction of data by a disgruntled employee",
+						"correct": false
+					},
+					{
+						"id": "cf1d2f51-c50a-4c2a-853f-81294b278ccc",
+						"content": "Email claiming to be from a government official requesting PHI for public health purposes",
+						"correct": true
+					},
+					{
+						"id": "80181544-5fd4-42c3-b489-d210d5f47262",
+						"content": "Employee's stolen keys used for unauthorized entry",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "If  more than two people, with one asking the other to do something,   are necessary for the unauthorized disclosure, it's a usually social breach.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Which of the following is an example of a \"Social\" breach?",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "31e2d9a5-cf34-4466-b141-7c6e1449bed6",
+			"type": "multiple-choice-game",
+			"subtype": "subset-of-four",
+			"name": 16,
+			"displayIndex": 16,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Which 4 of these are true?",
+							"questionId": "ef0ca57a-5e5c-4a3a-9ca9-a1428f598344",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Sam posting a picture of a patient's unique tattoo to a social media site is not a breach.",
+								"correct": false,
+								"answerId": "aa9c3f91-5b10-48ee-8339-0a45f770b192",
+								"type": "text"
+							},
+							{
+								"content": "A malware threat is any software intended to corrupt, destroy, damage, steal or compromise data or devices.",
+								"correct": true,
+								"answerId": "d07acfbc-a787-4c38-94f7-2810a67c65d0",
+								"type": "text"
+							},
+							{
+								"content": "Email claiming to be from a government official requesting PHI for public health purposes is a social breach.",
+								"correct": true,
+								"answerId": "72d9e817-b432-4ccd-bdf4-ed416ceebb30",
+								"type": "text"
+							},
+							{
+								"content": "A false email requesting documents for public health purposes is a physical breach.",
+								"correct": false,
+								"answerId": "42cd3c83-8014-4d8e-8949-ebd8be4e26c1",
+								"type": "text"
+							},
+							{
+								"content": "Despite safeguards, a breach may occur.",
+								"correct": true,
+								"answerId": "f4397531-a7c2-433a-b5cf-6ec719c6f6ce",
+								"type": "text"
+							},
+							{
+								"content": "Anthem paid **$16 million** for a breach that affected 79 million patient records.",
+								"correct": true,
+								"answerId": "3f7b3893-0d75-400e-a06d-9b56e073de12",
+								"type": "text"
+							},
+							{
+								"content": "Only 20,000 people have had their private information inappropriately disclosed.",
+								"correct": false,
+								"answerId": "085bbbc8-dd5b-45b2-8417-7c87ec93b462",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "31e2d9a5-cf34-4466-b141-7c6e1449bed6"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 6,
+				"randomize": true,
+				"doneText": "Continue",
+				"answers": [
+					{
+						"id": "6664e74a-b946-4ecb-8b79-1308007b4b82",
+						"content": "Sam posting a picture of a patient's unique tattoo to a social media site is not a breach.",
+						"correct": false
+					},
+					{
+						"id": "e50f62e6-766a-4ef8-b6cb-ed5489d06d6c",
+						"content": "A malware threat is any software intended to corrupt, destroy, damage, steal or compromise data or devices.",
+						"correct": true
+					},
+					{
+						"id": "1e032181-e066-4dd1-b57e-0cfa9cedd19c",
+						"content": "Email claiming to be from a government official requesting PHI for public health purposes is a social breach.",
+						"correct": true
+					},
+					{
+						"id": "a0b0bec9-4988-4121-b950-a84309abaef1",
+						"content": "A false email requesting documents for public health purposes is a physical breach.",
+						"correct": false
+					},
+					{
+						"id": "f051615e-fc4e-42bd-9a9b-f907cbebb225",
+						"content": "Despite safeguards, a breach may occur.",
+						"correct": true
+					},
+					{
+						"id": "14d17955-3edd-4018-8777-f68e6e945929",
+						"content": "Anthem paid **$16 million** for a breach that affected 79 million patient records.",
+						"correct": true
+					},
+					{
+						"id": "4f12a91e-08cb-492f-9fe5-a3d07d429e05",
+						"content": "Only 20,000 people have had their private information inappropriately disclosed.",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "Millions of security breaches occur yearly, costing companies billions of dollars. Security breaches may occur despite safeguards, and can come in many different ways.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "\n",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select 4 that are true",
+				"title": "Which 4 of these are true?",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "a67ac6e9-c07e-4a14-aa16-a1fccc0b104d",
+			"type": "exit",
+			"subtype": "default",
+			"name": 17,
+			"displayIndex": 17,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "a67ac6e9-c07e-4a14-aa16-a1fccc0b104d"
+			},
+			"data": {
+				"content": "<p>This lesson is finished.</p><p></p><p>Please close this tab and return to the Content tab to complete the course</p>",
+				"buttonText": "Exit Lesson",
+				"title": "More on internal and external threats in the next lesson.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "The Breach Rule",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090b2"
+}
