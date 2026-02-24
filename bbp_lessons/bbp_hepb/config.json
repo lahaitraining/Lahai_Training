@@ -1,0 +1,1113 @@
+{
+	"config": {
+		"background": "fit_content_assets/mrn1tobynht5qeh1v1lp.jpg",
+		"colors": {
+			"background": "#dae1e5",
+			"experimental": false,
+			"text": "#333",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\n\n\n/*/ Insert your company colors below,\nThe first four assets are the buttons in the course,\nFor the \".__active\" assets, reverse your colors (this is for when buttons are pressed)/*/\n\n.btn.btn-muted {background-color: white; color: black; border: 1px solid black;}\n.btn.btn-muted.__active {background-color: black; color: white; border: 1px solid black;}\n.btn.btn-solid {background-color: white; color: black; border: 1px solid black;}\n.btn.btn-solid.__active {background-color: black; color: white; border: 1px solid black;}\n\n/*/ This is the box in the corner of the screen that tells you the slide numbers /*/\n\n#lesson-header-nav {background-color: white; color: black; border: 1px solid black;}\n\n/*/ This is the progress bar at the top of the lesson /*/\n\n#indicator {background-color: white; color: black;}\n\n/*/ Below is the font for the lesson, you can change this by finding a font to import on Google Fonts /*/\n@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\nbody {font-family: 'Lato', sans-serif;}",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/ynuvnbd6ltswxzxvfegd.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "7004b031-b6a4-4bc9-abd2-24522290324d",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "7004b031-b6a4-4bc9-abd2-24522290324d"
+			},
+			"data": {
+				"prompt": "Click arrow to view next slide until reaching \"Continue\"",
+				"items": [
+					{
+						"content": "fit_content_assets/yrus9o99q4zldqqdtecd.jpg",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "# Hepatitis B\n\n## Vaccination Protection",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/igyf9jsssfoh7j38kajh.jpg",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## **Hepatitis B is a liver infection**  caused by the Hepatitis B Virus (HBV).   ",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Light Text"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## HBV is **spread** when the following **body fluids** infected by the virus enter someone's body that is not infected. \n\n- Blood \n-  Saliva \n- Semen \n-  Vaginal Secretion ",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Dark Text"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## Hepatitis B's short-term symptoms include:\n\n- Fever\n- Fatigue\n- Loss of appetite\n- Nausea\n- Dark urine\n- Clay-colored bowel movements\n- Joint pain\n- Jaundice (yellow color in the skin or the eyes)",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Dark Text"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## If not prevented, it may develop into long-term health problems such as: \n\n- Liver Failure \n- Liver Cirrhosis \n- Liver Cancer \n- **Death** ",
+						"imagePosition": "Middle",
+						"captionStyle": "Transparent Dark Text"
+					},
+					{
+						"content": "fit_content_assets/dum6uz8kjknhbvpptb4a.jpg",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## Quick Trivia: \n\nBack in 2018 alone, **1,649 deaths** related to Hepatitis B were reported to the Centers for Disease Control (CDC), but that's an underestimate! ",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					}
+				],
+				"arrows": true,
+				"doneText": "Continue ",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "5e615ee4-009e-4153-aaf7-cc77fb155920",
+			"type": "matrix",
+			"subtype": "matrix",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Multi-question",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "# Hepatitis B is:",
+							"content": "An infection in the: ",
+							"questionId": "278e94b5-6d3c-4cd7-872b-8239cfd948f4",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Lungs ",
+								"correct": false,
+								"answerId": "e08e8a68-a1f9-4a63-ac83-b5e1f4913b28",
+								"type": "text"
+							},
+							{
+								"content": "Liver ",
+								"correct": true,
+								"answerId": "da141ef7-f246-4d5b-905e-bf8117d46146",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "# Hepatitis B is:",
+							"content": "It is spread through: ",
+							"questionId": "85c86beb-b7c9-4beb-a962-e54150180434",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Airborne transmission ",
+								"correct": false,
+								"answerId": "b9df7c60-3ea5-42c8-958d-4fa6d6773dd6",
+								"type": "text"
+							},
+							{
+								"content": "Body fluid transmission ",
+								"correct": true,
+								"answerId": "00381954-4ea5-481d-a0f2-f0d2d0ee0521",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "# Hepatitis B is:",
+							"content": "If not prevented, it may lead to: ",
+							"questionId": "c162d514-edf8-42df-a46e-e6f498195020",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Permanent paralysis ",
+								"correct": false,
+								"answerId": "22e75530-f282-4002-8ce7-ef792f42ab2f",
+								"type": "text"
+							},
+							{
+								"content": "Death",
+								"correct": true,
+								"answerId": "b41771c2-be79-4a53-ad60-28c3fb39e4cf",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "5e615ee4-009e-4153-aaf7-cc77fb155920"
+			},
+			"data": {
+				"doneText": "Continue ",
+				"columns": [
+					{
+						"title": "An infection in the: ",
+						"correct": "Liver ",
+						"incorrect": [
+							"Lungs "
+						]
+					},
+					{
+						"title": "It is spread through: ",
+						"correct": "Body fluid transmission ",
+						"incorrect": [
+							"Airborne transmission "
+						]
+					},
+					{
+						"title": "If not prevented, it may lead to: ",
+						"correct": "Death",
+						"incorrect": [
+							"Permanent paralysis "
+						]
+					}
+				],
+				"answer": {
+					"takeaway": "Hepatitis B is an **infection in the liver**, which can be transmitted through **blood, saliva, and other body fluids** and if not prevented, it **may lead to death**. ",
+					"incorrect": "Almost! ",
+					"correct": "That's correct!",
+					"text": "The correct answers are **Liver**, **Body fluid transmission**, and **Death**. ",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select each correct answer",
+				"title": "# Hepatitis B is:",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "f8c98714-f404-4d08-96d4-ba08ea89e9e2",
+			"type": "image-map",
+			"subtype": "multiple-regions",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Image map",
+			"templateDescription": "Map out details through a series of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "f8c98714-f404-4d08-96d4-ba08ea89e9e2"
+			},
+			"data": {
+				"doneText": "Continue ",
+				"zoom": true,
+				"stickyCaptions": true,
+				"url": "fit_content_assets/q9wpi7rt5ajslbszcdd6.jpg",
+				"prompt": "How is Hepatitis B transmitted? \n\nClick a box to learn more, then click again to close",
+				"appearance": {
+					"waypointColor": "White"
+				},
+				"lightbox": {
+					"background": "White",
+					"textColor": "Black"
+				},
+				"waypoints": [
+					{
+						"image": "fit_content_assets/xiv6ni9gtsgswi7h8wwy.jpg",
+						"caption": "## **Cuts and Needle Pricks**\n\n## Accidental injuries from sharp objects and needle pricks can also contribute to Hepatitis B virus transmission if the items that caused it had contact with an infected person's blood",
+						"narration": null,
+						"region": {
+							"yMax": 0.9765034346097737,
+							"xMax": 0.45592772833789263,
+							"yMin": 0.6824246201745214,
+							"xMin": 0.019361385869932742
+						}
+					},
+					{
+						"image": "fit_content_assets/gxlhcecqpcddzbicjjcv.jpg",
+						"caption": "## **Pre-natal Transmission**\n\n## The Hepatitis B virus can be spread from an infected mother to her baby during birth. ",
+						"narration": "",
+						"region": {
+							"yMax": 0.3155555216471354,
+							"xMax": 0.46847340916785474,
+							"yMin": 0.011851806640625,
+							"xMin": 0.008642675020574463
+						}
+					},
+					{
+						"image": "fit_content_assets/flacf7czlypd1bleqhxp.jpg",
+						"caption": "## **Sexual Intercourse**\n\n## The Hepatitis B virus can be transmitted by having sex with an infected partner.",
+						"narration": "",
+						"region": {
+							"yMax": 0.31259251912434893,
+							"xMax": 0.9783928673628176,
+							"yMin": 0.008888905843098958,
+							"xMin": 0.5228837674496554
+						}
+					},
+					{
+						"image": "fit_content_assets/wc418doi8ziakhcn0eof.jpg",
+						"caption": "## **Toiletries** \n\n## Sharing the use of items such as toothbrushes and razorblades with an infected person can also be a means of transmission for Hepatitis B virus",
+						"narration": "",
+						"region": {
+							"yMax": 0.6533333333333333,
+							"xMax": 0.46847340916785485,
+							"yMin": 0.34962982177734375,
+							"xMin": 0.008642675020574463
+						}
+					},
+					{
+						"image": "fit_content_assets/geffwt3ew2a1pmqpf7ev.jpg",
+						"caption": "## **Medical Equipment **\n\n## Sharing items which can carry blood from one infected person to another person, such as drug preparation equipment like syringes, as well as Glucose Monitors, can also be a means for the Hepatitis B virus to spread ",
+						"narration": "",
+						"region": {
+							"yMax": 0.6562962849934896,
+							"xMax": 0.9783934608104791,
+							"yMin": 0.3496297200520833,
+							"xMin": 0.5315264424702295
+						}
+					},
+					{
+						"image": "fit_content_assets/g0ombhjpxujxiel36z2g.jpg",
+						"caption": "## **Common Misconceptions**\nHepatitis B virus is **not** spread through: \n\n- Kissing \n- Hand-holding \n- Hugging \n- Coughing or sneezing \n- Sharing eating utensils \n- Breastfeeding ",
+						"narration": "",
+						"region": {
+							"yMax": 0.9733334350585937,
+							"xMax": 0.9827147983207662,
+							"yMin": 0.6785184987386068,
+							"xMin": 0.5272054016837732
+						}
+					}
+				],
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "73bf6334-894e-4548-a54a-d1870b1322ec",
+			"type": "drag-to-match",
+			"subtype": "classify-three-into-two",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Drag to match",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "## **Hepatitis B Transmission**\nTest your knowledge!  ",
+							"content": "Injuries from objects that made contact with HBV ",
+							"questionId": "8700f902-3ae2-4e3d-acf1-ee5c543d3dd6",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Does not transmit HBV",
+								"correct": false,
+								"answerId": "63bd537d-577f-4f32-a7eb-bc6a5cddfb1f",
+								"type": "text"
+							},
+							{
+								"content": "Transmits HBV",
+								"correct": false,
+								"answerId": "f2e3d291-253f-4188-b6af-59a643658ed2",
+								"type": "text"
+							},
+							{
+								"content": "Does not transmit HBV",
+								"correct": false,
+								"answerId": "af758d69-1a0b-4b52-8687-003c57c7dd3e",
+								"type": "text"
+							},
+							{
+								"content": "Transmits HBV",
+								"correct": true,
+								"answerId": "ae5d6540-1bcc-4b76-890c-c15dbb6feb54",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "## **Hepatitis B Transmission**\nTest your knowledge!  ",
+							"content": "Coughing and sneezing ",
+							"questionId": "0f091e99-51eb-44b6-a492-dd0f324fafb1",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Transmits HBV",
+								"correct": false,
+								"answerId": "afd1fe76-2437-4b9d-8e1c-f977c400430d",
+								"type": "text"
+							},
+							{
+								"content": "Transmits HBV",
+								"correct": false,
+								"answerId": "5e6bac23-7047-4fad-86b2-ffae82edef73",
+								"type": "text"
+							},
+							{
+								"content": "Does not transmit HBV",
+								"correct": false,
+								"answerId": "c6c52e6e-01b3-4821-a811-28ad5b66aeee",
+								"type": "text"
+							},
+							{
+								"content": "Does not transmit HBV",
+								"correct": true,
+								"answerId": "89a7750d-bad8-4a49-9824-4faf55e36b54",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "## **Hepatitis B Transmission**\nTest your knowledge!  ",
+							"content": "Sharing syringes and Glucose Monitor ",
+							"questionId": "044890c6-797f-42cb-a68e-f58c0e3682ed",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Transmits HBV",
+								"correct": false,
+								"answerId": "5f68aa02-ba53-4b02-9806-688f6b7bf13d",
+								"type": "text"
+							},
+							{
+								"content": "Does not transmit HBV",
+								"correct": false,
+								"answerId": "87c2d8a1-c91a-4d2a-a193-81ed19995208",
+								"type": "text"
+							},
+							{
+								"content": "Does not transmit HBV",
+								"correct": false,
+								"answerId": "ca6aee2d-50d7-449b-86d1-486b12e8f6e6",
+								"type": "text"
+							},
+							{
+								"content": "Transmits HBV",
+								"correct": true,
+								"answerId": "fa33227e-1078-4746-ba44-d5a34043bbac",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "## **Hepatitis B Transmission**\nTest your knowledge!  ",
+							"content": "Holding hands ",
+							"questionId": "7a5a8661-8d4a-4193-9007-99b8a685c4e9",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Transmits HBV",
+								"correct": false,
+								"answerId": "3df67799-bfba-48be-8f87-5fcddd96aff3",
+								"type": "text"
+							},
+							{
+								"content": "Does not transmit HBV",
+								"correct": false,
+								"answerId": "6ca4dca2-be3e-4eb3-bde2-9ecf0b164758",
+								"type": "text"
+							},
+							{
+								"content": "Transmits HBV",
+								"correct": false,
+								"answerId": "5e7be76b-cff6-4e92-9de0-baa8f762a3c1",
+								"type": "text"
+							},
+							{
+								"content": "Does not transmit HBV",
+								"correct": true,
+								"answerId": "3de4d846-127a-4024-8b36-bc3a0d79172b",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "73bf6334-894e-4548-a54a-d1870b1322ec"
+			},
+			"data": {
+				"reject": false,
+				"list": [
+					{
+						"name": "Transmits HBV",
+						"nameType": "text",
+						"image": "Injuries from objects that made contact with HBV ",
+						"imageType": "text"
+					},
+					{
+						"name": "Does not transmit HBV",
+						"nameType": "text",
+						"image": "Coughing and sneezing ",
+						"imageType": "text"
+					},
+					{
+						"name": "Transmits HBV",
+						"nameType": "text",
+						"image": "Sharing syringes and Glucose Monitor ",
+						"imageType": "text"
+					},
+					{
+						"name": "Does not transmit HBV",
+						"nameType": "text",
+						"image": "Holding hands ",
+						"imageType": "text"
+					}
+				],
+				"doneText": "Continue",
+				"answer": {
+					"takeaway": "Hepatitis B is **spread through body fluids** so injuries from items that had contact with infected blood, or sharing medical equipment, can contribute to its transmission. ",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "- **Does not transmit Hepatitis B:** Coughing and Sneezing, Holding hands\n- **Transmits Hepatitis B:**  Injuries from sharp objects that made contact with infected blood and sharing of items such as syringes and Glucose Monitor ",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag activities on the left to the correct box on the right ",
+				"title": "## **Hepatitis B Transmission**\nTest your knowledge!  ",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "6fb5d025-c9dc-4e6f-8b21-5087f9e1a1e5",
+			"type": "comparison",
+			"subtype": "reveal-further-information",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Comparison",
+			"templateDescription": "Juxtapose two items in a slider",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "6fb5d025-c9dc-4e6f-8b21-5087f9e1a1e5"
+			},
+			"data": {
+				"before": {
+					"contentType": "text",
+					"content": "## In this course, there's another lesson that covers the safety precautions you can take to avoid HBV infection as you do your day-to-day job! ",
+					"label": "\n## Aside from that, there is another way to avoid being infected by Hepatitis B, by being **immune** from it. \n\n## **Swipe bar from R to L to find out how!** "
+				},
+				"after": {
+					"contentType": "image",
+					"content": "fit_content_assets/qebsaregdymjbo5a5kjp.gif",
+					"label": "## **Vaccination**\n\n## One of our responsibilities as your employer is to ensure that you're safe from HBV. \n\n\n## The vaccine is available for our staff who are at risk of infection due to the nature of their job roles - **for free**! "
+				},
+				"startPosition": "Before - Start with the first section visible",
+				"prompt": "",
+				"doneText": "Continue",
+				"title": "How can you avoid getting infected by the Hepatitis B virus? ",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "5b9d45a4-bfb9-4c6d-9abc-ebf75d69c681",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "5b9d45a4-bfb9-4c6d-9abc-ebf75d69c681"
+			},
+			"data": {
+				"prompt": "Click to see more",
+				"items": [
+					{
+						"content": "fit_content_assets/qc4yoi2meuh90iqfvmax_pbxqz3_yrkvo4_yx7ehk.jpg",
+						"contentType": "image",
+						"position": "Top",
+						"color": "",
+						"caption": "## **What is an HBV vaccine?**\n\n## Hepatitis B vaccine **gives you immunity** to Hepatitis B virus without getting sick first. ",
+						"imagePosition": "Cover",
+						"captionStyle": "Dark"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## Based on studies, medical professionals confirm that it is safer to get a vaccine than to get the disease it prevents! ",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Dark Text"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## **What is it made of?**  \n\n## The HBV vaccine is **made from an altered version** of the Hepatitis B virus itself. \n\n## By getting one, your immune system responds the same way it would to the real virus.",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Dark Text"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## **It's made up of HBV, is it safe? ** \n\n## Definitely - it is made from** killed or weakened versions of the Hepatitis B virus**. \n\n## Its only job is to make your body familiar with the virus so it knows how to fight it in case you get infected! ",
+						"imagePosition": "Middle",
+						"captionStyle": "Transparent Dark Text"
+					}
+				],
+				"arrows": false,
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "114b341d-469e-4b34-a647-978aeaf0058d",
+			"type": "image-map",
+			"subtype": "multiple-regions",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Image map",
+			"templateDescription": "Map out details through a series of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "114b341d-469e-4b34-a647-978aeaf0058d"
+			},
+			"data": {
+				"doneText": "Continue",
+				"zoom": true,
+				"stickyCaptions": true,
+				"url": "fit_content_assets/gocv2rv2vdyvgrdx5jwd.jpg",
+				"prompt": "Click each of the 3 \"R\" words above to learn more. Click again to close.",
+				"appearance": {
+					"waypointColor": "White"
+				},
+				"lightbox": {
+					"background": "White ",
+					"textColor": "Black"
+				},
+				"waypoints": [
+					{
+						"image": "",
+						"caption": "# **R**ecognize\n\n## Since our immune system reacts to vaccines the same way it does to viruses, our bodies recognize the HBV in the vaccine once it enters our body and **identifies it as being foreign**. ",
+						"narration": null,
+						"region": {
+							"yMax": 0.21222218831380213,
+							"xMax": 0.7866668701171875,
+							"yMin": 0.15703699747721353,
+							"xMin": 0.18111114501953124
+						}
+					},
+					{
+						"image": "",
+						"caption": "# **R**espond\n\n## After identifying the HBV, our immune system responds to it by **making antibodies** to fight it just as it would to a real virus. \n\n## Since the vaccine contains a **weaker version of HBV**, our body finds it easier to fight, without you even getting sick during the process! ",
+						"narration": null,
+						"region": {
+							"yMax": 0.30740748087565106,
+							"xMax": 0.7333332824707032,
+							"yMin": 0.2503703816731771,
+							"xMin": 0.18222213745117188
+						}
+					},
+					{
+						"image": "",
+						"caption": "# **R**emember \n\n## After identifying and destroying the virus, **our immune system remembers it and how it can be destroyed**. \n\n## So, if you're ever exposed to it again, your body will be able to quickly destroy it before it gets the chance to make you sick, making you immune to Hepatitis B.  ",
+						"narration": null,
+						"region": {
+							"yMax": 0.4014815266927083,
+							"xMax": 0.8211106872558593,
+							"yMin": 0.3325925699869791,
+							"xMin": 0.18111083984375
+						}
+					}
+				],
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "2e261925-584e-4da9-8a8f-732c011ccde9",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "The HBV vaccine makes one immune to Hepatitis B - made from a weaker version of the virus, it helps our immune system recognize, respond , and remember how to fight it.  ",
+							"content": "immune",
+							"questionId": "bd472f93-72ae-4fe6-9da4-2efce768b344",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "reset",
+								"correct": false,
+								"answerId": "f6a34c40-cabc-4ef6-b1ee-b25deaf327c6",
+								"type": "text"
+							},
+							{
+								"content": "respond",
+								"correct": false,
+								"answerId": "5a57c3c8-b723-49c0-a3b2-7549b135b42c",
+								"type": "text"
+							},
+							{
+								"content": "weaker version",
+								"correct": false,
+								"answerId": "944c8b23-be51-410c-95f3-36299070fbd7",
+								"type": "text"
+							},
+							{
+								"content": "prone",
+								"correct": false,
+								"answerId": "e3b074c9-1ede-4a98-8067-b8c2367c17f8",
+								"type": "text"
+							},
+							{
+								"content": "cloned version",
+								"correct": false,
+								"answerId": "3f5b3768-a39e-4807-b760-a4a775f0453c",
+								"type": "text"
+							},
+							{
+								"content": "immune",
+								"correct": true,
+								"answerId": "d4ede0b7-3d9a-4d08-8356-236b4167487d",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "The HBV vaccine makes one immune to Hepatitis B - made from a weaker version of the virus, it helps our immune system recognize, respond , and remember how to fight it.  ",
+							"content": "respond",
+							"questionId": "f929d510-2f01-4c66-90d0-e2f2b863e49d",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "immune",
+								"correct": false,
+								"answerId": "bcd0d304-e554-4457-92bc-2bf048bdf95a",
+								"type": "text"
+							},
+							{
+								"content": "reset",
+								"correct": false,
+								"answerId": "c0bb5e54-f70b-458f-9134-02a2ef4a7acc",
+								"type": "text"
+							},
+							{
+								"content": "weaker version",
+								"correct": false,
+								"answerId": "24824587-1999-419d-8dbc-a7a7757f87eb",
+								"type": "text"
+							},
+							{
+								"content": "prone",
+								"correct": false,
+								"answerId": "b91db405-c8fb-4f74-96ef-f7188ae65d3f",
+								"type": "text"
+							},
+							{
+								"content": "cloned version",
+								"correct": false,
+								"answerId": "c555ebe8-b062-4c2f-a873-7e9ffab79c5a",
+								"type": "text"
+							},
+							{
+								"content": "respond",
+								"correct": true,
+								"answerId": "aa42d55f-e40d-456e-ab55-9dbb1c1c9696",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "The HBV vaccine makes one immune to Hepatitis B - made from a weaker version of the virus, it helps our immune system recognize, respond , and remember how to fight it.  ",
+							"content": "weaker version",
+							"questionId": "f3482c58-98e3-495a-bec5-7f94a0bd9a0f",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "immune",
+								"correct": false,
+								"answerId": "80661d01-d631-4585-bec2-2e66807dc6b1",
+								"type": "text"
+							},
+							{
+								"content": "reset",
+								"correct": false,
+								"answerId": "c9f1e67d-1dbb-4a01-a9be-b9fbe9b0c4d6",
+								"type": "text"
+							},
+							{
+								"content": "respond",
+								"correct": false,
+								"answerId": "ca3812a6-18fe-46b4-b026-3281a2fb0ec6",
+								"type": "text"
+							},
+							{
+								"content": "prone",
+								"correct": false,
+								"answerId": "332ea86d-dc7a-44ac-9e1d-90039ab325c8",
+								"type": "text"
+							},
+							{
+								"content": "cloned version",
+								"correct": false,
+								"answerId": "51f25213-d668-45d8-b44d-f8f78b15f0d9",
+								"type": "text"
+							},
+							{
+								"content": "weaker version",
+								"correct": true,
+								"answerId": "69791a51-ad30-4d63-849c-6ecc4b9dc433",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "2e261925-584e-4da9-8a8f-732c011ccde9"
+			},
+			"data": {
+				"words": [
+					"immune",
+					"reset",
+					"respond",
+					"weaker version",
+					"prone",
+					"cloned version"
+				],
+				"doneText": "Continue",
+				"answer": {
+					"takeaway": "## The HBV vaccine makes one **immune** to Hepatitis B, made from a **weaker version** of the virus, it helps our immune system recognize, **respond**, and remember how to fight it.  ",
+					"incorrect": "Almost! ",
+					"correct": "That's correct!",
+					"text": "- The vaccine makes one **immune** to Hepatitis B. \n- It is made from a **weaker version** of HBV. \n- It helps our immune system familiarize and **respond** to the virus. ",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "The HBV vaccine makes one immune to Hepatitis B - made from a weaker version of the virus, it helps our immune system recognize, respond , and remember how to fight it.  ",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "f540532c-63d8-4e77-b3b4-613db218a8d8",
+			"type": "image-slider",
+			"subtype": "multiple",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "f540532c-63d8-4e77-b3b4-613db218a8d8"
+			},
+			"data": {
+				"prompt": "Click to learn more",
+				"items": [
+					{
+						"content": "fit_content_assets/azjexfslt5o6krtrfcdl.jpg",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "# **Can I decline to take the HBV vaccine?** ",
+						"imagePosition": "Cover",
+						"captionStyle": "Light"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## Yes, there are laws that state that you have the right to decline to take it. \n\n## However, you will need to sign a **declination form** if you wish to do so. ",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Dark Text"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## The form states that **you will remain at risk** of acquiring Hepatitis B as you perform your role within our organization. ",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Dark Text"
+					},
+					{
+						"content": "",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## Don't worry! The form also states that even if you decline it now and accept it in the future, we as your employer shall make it available for you at no cost.\n\n## This is **as long as you are still occupationally exposed** to Hepatitis B ",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Dark Text"
+					}
+				],
+				"arrows": true,
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "8b24ec93-55db-4b54-a5c4-bca5a691cd51",
+			"type": "text-sequence",
+			"subtype": "text-sequence",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Sequence",
+			"templateDescription": "Display a sequence of text",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "8b24ec93-55db-4b54-a5c4-bca5a691cd51"
+			},
+			"data": {
+				"prompt": "Read more",
+				"label": "Step",
+				"canGoBack": true,
+				"doneText": "Continue",
+				"content": [
+					"Hepatitis B is an infection in the liver.",
+					"If not prevented, it may cause liver failure and death. ",
+					"It can not be spread through kissing, coughing, and sneezing.",
+					"It can be transmitted through sexual intercourse.",
+					"Sharing a Glucose Monitor with an infected person may put you at risk of HBV transmission. ",
+					"Taking the HBV vaccine makes you immune to Hepatitis B. ",
+					"Sharing a razor blade with a colleague could put you at risk of Hepatitis B transmission. ",
+					"It is safe to take the HBV vaccine. ",
+					"The HBV vaccine is made from a weaker version of the Hepatitis B virus. ",
+					"Taking the vaccination is voluntary for all employees in our organization. "
+				],
+				"title": "About Hepatitis B",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "306ad478-4f58-4525-a8ed-1b536d1569aa",
+			"type": "slider-survey",
+			"subtype": "slider",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Slider",
+			"templateDescription": "Gather numerical feedback",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "306ad478-4f58-4525-a8ed-1b536d1569aa"
+			},
+			"data": {
+				"slider": {
+					"min": 1,
+					"max": 5,
+					"prefix": "",
+					"suffix": "",
+					"increment": 1,
+					"decimals": 0,
+					"labels": 10,
+					"minLabel": "Strongly Disagree",
+					"maxLabel": "Strongly Agree"
+				},
+				"prompt": "Drag to select a response",
+				"question": {
+					"min": null,
+					"content": "Now I understand what **Hepatitis B** is and how it can be avoided through vaccination.",
+					"contentType": "html",
+					"id": "f2d4c81e-3b55-ca44-da89-55a7e6f77e84"
+				},
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		},
+		{
+			"id": "574de8a7-6dbe-4404-b1a4-5d06847b6c08",
+			"type": "exit",
+			"subtype": "default",
+			"name": 12,
+			"displayIndex": 12,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "574de8a7-6dbe-4404-b1a4-5d06847b6c08"
+			},
+			"data": {
+				"content": "Well done! You've completed this lesson on **Hepatitis B Vaccination Protection**. \n\nPlease close this tab and return to the Content tab to complete the course",
+				"buttonText": "",
+				"title": "Virtual high five! ",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "Hepatitis B Vaccination Protection",
+	"index": 0,
+	"scorm": true,
+	"id": "699b605dd964e23dbc3f5566"
+}
