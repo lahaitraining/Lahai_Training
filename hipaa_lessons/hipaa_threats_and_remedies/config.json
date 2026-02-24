@@ -1,0 +1,761 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "88cdb532-81f6-4968-b6b2-fe28569588ca",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "88cdb532-81f6-4968-b6b2-fe28569588ca"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": true,
+				"title": "Threats and Remedies",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "7d67fc32-10e0-4006-a6b2-8f5c1c58ee1a",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "7d67fc32-10e0-4006-a6b2-8f5c1c58ee1a"
+			},
+			"data": {
+				"content": "",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "What's so special about PHI?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "c32d9486-92a4-4154-865b-857560dd8df2",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "c32d9486-92a4-4154-865b-857560dd8df2"
+			},
+			"data": {
+				"prompt": "Click to see more",
+				"items": [
+					{
+						"content": "fit_content_assets/npyxmtpaa53gw1l5ozbh.jpg",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "Healthcare information (PHI) is particularly ripe for abuse because it contains **so many** important personal identifiers <br>(e.g., Social Security Numbers, bank account information). ",
+						"imagePosition": "Middle",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/xs5miqkhsgrofnvxrob2.jpg",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "There’s a common thread to all cybersecurity threats - except natural disasters - there’s a human behind them.",
+						"imagePosition": "Middle",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "",
+						"contentType": "text",
+						"position": "Middle",
+						"color": "",
+						"caption": "# Now, let's take a closer look at external and internal threats.",
+						"imagePosition": "Middle",
+						"captionStyle": "Default"
+					}
+				],
+				"arrows": true,
+				"doneText": "Next",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "d0bc8b35-209f-4d8e-a1b5-14f3abc06b74",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Choose the 2 correct answers",
+							"content": "PHI is valuable to hackers because...",
+							"questionId": "1733181a-96c1-415f-a6a9-5e4dcabfafb7",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "It's a rich source of many personal identifiers",
+								"correct": true,
+								"answerId": "8a29a1f8-06ae-474b-8d57-95ddc6b7d53b",
+								"type": "text"
+							},
+							{
+								"content": "They're easy to steal",
+								"correct": false,
+								"answerId": "6371a088-d837-4c8e-98ac-e5de8566ae8d",
+								"type": "text"
+							},
+							{
+								"content": "They're rarely protected",
+								"correct": false,
+								"answerId": "f1e478dc-1918-40ae-baf2-564a884690ab",
+								"type": "text"
+							},
+							{
+								"content": "PHI is available online for patients to access their medical records",
+								"correct": true,
+								"answerId": "86e3d070-e787-4d37-bc96-544c5b3c9924",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "d0bc8b35-209f-4d8e-a1b5-14f3abc06b74"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 3,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "9abdf370-2619-4e87-83e4-a04b4bde560e",
+						"content": "It's a rich source of many personal identifiers",
+						"correct": true
+					},
+					{
+						"id": "1c25f670-e550-4c6b-8d68-db9d3df9a82b",
+						"content": "They're easy to steal",
+						"correct": false
+					},
+					{
+						"id": "633a0128-6b18-4274-bf62-8cc31c1c3efd",
+						"content": "They're rarely protected",
+						"correct": false
+					},
+					{
+						"id": "ca2b724e-bfaa-4f58-857d-18bb253db421",
+						"content": "PHI is available online for patients to access their medical records",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "Think of all the information that's in PHI and medical records, and how they can be used for financial gain, blackmail (a prominent community member has a socially unacceptable disease) or identity theft.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the 2 correct answers",
+				"title": "PHI is valuable to hackers because...",
+				"titleType": "text",
+				"subtitle": "Choose the 2 correct answers",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "9eca5dbd-22f0-4f98-860d-c24cbaab0b3e",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "9eca5dbd-22f0-4f98-860d-c24cbaab0b3e"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "",
+						"caption": "# In many ways, **external breaches** are easiest to imagine: after all, we’ll lock our cars or homes, protect our money, tell our kids “stranger danger.”  <br><br>We get it."
+					},
+					{
+						"image": "",
+						"caption": "# With external threats, although there’s a **“who,”** all we see is the evidence of the attack - something bad happens."
+					},
+					{
+						"image": "",
+						"caption": "# **Well-executed analyses**; robust, layered safeguards, including hardware, software and wetware (aka people); and, frequent reviews of safeguards are usually adequate."
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "6302d449-5e9e-49d5-a568-d613cdf1d8b1",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Well-executed analyses; robust, layered safeguards; and, frequent reviews of safeguards are usually adequate to protect against external threats.",
+							"questionId": "2b1b4deb-158b-4ed6-aaec-0a57ae6c0219",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": true,
+								"answerId": "d3544df7-8ead-4e86-9449-a5c7effd6ba1",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": false,
+								"answerId": "93714ae4-f088-442e-a71f-7b60ee71f4db",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "6302d449-5e9e-49d5-a568-d613cdf1d8b1"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "d30f6785-0562-4d3f-861c-f1018c17eb49",
+						"content": "True",
+						"correct": true
+					},
+					{
+						"id": "6299e51d-68aa-489d-8ac6-3fc35c40face",
+						"content": "False",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "There's **never** a simple, easy, single security measure that will address all security threats always, and in the future. That's why HIPAA identifies three sets of safeguards - administrative, physical and technical - that address different source of threats.\n\nImplementing **all** these safeguards, based on ongoing, current analyses of current threats and vulnerabilities, is the best approach.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Well-executed analyses; robust, layered safeguards; and, frequent reviews of safeguards are usually adequate to protect against external threats.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "4f0ff599-a45d-46e4-ae06-4296a96d8272",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "4f0ff599-a45d-46e4-ae06-4296a96d8272"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "fit_content_assets/gqjywsfxn2xtyniktaut.jpg",
+						"caption": "# With internal threats, we have already let the person inside our perimeter."
+					},
+					{
+						"image": "fit_content_assets/lzpki8udn5kenm7snspq.jpg",
+						"caption": "# They’re in the building, perhaps the office, and maybe even sitting next to us."
+					},
+					{
+						"image": "fit_content_assets/chvxl2l2vgvi9csqufkr.jpg",
+						"caption": "# They have access and some level of trust already..."
+					},
+					{
+						"image": "fit_content_assets/jnismzkrjgiztbcdv6oy.jpg",
+						"caption": "# ...meaning these threats typically take longer to detect."
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "c68d2ebf-785d-4435-8aa9-b4ea43a19ec5",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Which 3 are true",
+							"content": "Which of the following are true of internal threats?",
+							"questionId": "41e48422-ebf7-4aad-8323-e6f3e624bcda",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "The person is typically trusted",
+								"correct": true,
+								"answerId": "fb3d1b1e-2ff8-41de-9884-854b8385a0a5",
+								"type": "text"
+							},
+							{
+								"content": "May not be as obvious as an external threat",
+								"correct": true,
+								"answerId": "c6cefeb6-f998-4b6b-8632-ad694f0da9a5",
+								"type": "text"
+							},
+							{
+								"content": "They typically take longer to detect",
+								"correct": true,
+								"answerId": "3ec5b644-5c9b-44da-8c69-c8040b45d2b0",
+								"type": "text"
+							},
+							{
+								"content": "They're not as big a risk as an external threat",
+								"correct": false,
+								"answerId": "1ea10d7c-5c1b-428d-b407-11cbd54bc6a8",
+								"type": "text"
+							},
+							{
+								"content": "They're uncommon",
+								"correct": false,
+								"answerId": "e35ae41c-d303-408f-81c4-a53205d21f35",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "c68d2ebf-785d-4435-8aa9-b4ea43a19ec5"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 4,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "8eb903f6-9676-4b6a-8d51-d28737f61b54",
+						"content": "The person is typically trusted",
+						"correct": true
+					},
+					{
+						"id": "231de8cc-8326-4040-9a2c-f999c8083144",
+						"content": "May not be as obvious as an external threat",
+						"correct": true
+					},
+					{
+						"id": "f70e6ba6-96b9-4cf8-a4ca-69a5dc5415c8",
+						"content": "They typically take longer to detect",
+						"correct": true
+					},
+					{
+						"id": "2123485c-c025-43d6-b1d2-02292692cc6e",
+						"content": "They're not as big a risk as an external threat",
+						"correct": false
+					},
+					{
+						"id": "7a277c83-1f42-46fb-b88a-1be066ade5da",
+						"content": "They're uncommon",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "Internal threats are subtle - after all, the potential perpetrator is already an insider.  These threats, and attacks, are not as apparent as external attacks, and can remain undetected for quite a while.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Choose the 3 correct answers",
+				"title": "Which of the following are true of internal threats?",
+				"titleType": "text",
+				"subtitle": "Which 3 are true",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "c66b11f8-d91e-42d3-9337-effc822a2c19",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "c66b11f8-d91e-42d3-9337-effc822a2c19"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more<br><br>",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "Employees or partners who misappropriate resources, break acceptable use policies, mishandle data, install unauthorized applications and use unapproved workarounds; their actions are inappropriate as opposed to malicious, many of which fall within the world of Shadow IT (i.e., outside of IT knowledge and management).",
+						"title": "<center>**The Careless Worker**<br>_(misusing assets)_"
+					},
+					{
+						"content": "Insiders recruited, solicited or bribed by external parties to exfiltrate data.",
+						"title": "<center>**Inside Agent**<br>_(stealing information on behalf of outsiders)_"
+					},
+					{
+						"content": "Insiders who seek to harm their organization via destruction of data or disruption of business activity.",
+						"title": "<center>**The Disgruntled Employee**<br>_(destroying property)_"
+					},
+					{
+						"content": "Actors with access to corporate assets who use existing privileges to access information for personal gain.",
+						"title": "<center>**The Malicious Insider**<br>_(stealing information for personal gain)_"
+					},
+					{
+						"content": "Business partners who compromise security through negligence, misuse, or malicious access to or use of an asset.",
+						"title": "<center>**The Feckless Third-Party**<br>_(compromising security)_"
+					}
+				],
+				"title": "Verizon’s _Insider Threat Report*_  sums it up well:",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "bbcd5686-2d22-419d-a147-55d0aad90de7",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "There are 3 correct answers",
+							"content": "Examples of internal threats affecting PHI include...",
+							"questionId": "c44ca498-512b-4e3a-8909-2a311251f75f",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "break acceptable use policies",
+								"correct": true,
+								"answerId": "89aade51-d515-40f3-ace3-42ebdeffb4ef",
+								"type": "text"
+							},
+							{
+								"content": "destroying medical records",
+								"correct": true,
+								"answerId": "91360428-adf1-4c44-b020-1dfef8ccc800",
+								"type": "text"
+							},
+							{
+								"content": "stealing information",
+								"correct": true,
+								"answerId": "63713422-d1f7-4603-8d41-c6b50d867cf4",
+								"type": "text"
+							},
+							{
+								"content": "stealing office supplies",
+								"correct": false,
+								"answerId": "c4e34b64-4557-417d-b2fc-da89d68658a7",
+								"type": "text"
+							},
+							{
+								"content": "making personal copies",
+								"correct": false,
+								"answerId": "9ffdc2f0-231d-4fa8-a6be-531d1be3f60d",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "bbcd5686-2d22-419d-a147-55d0aad90de7"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 4,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "a6e29356-bb8b-4d99-ac57-a95cc4525001",
+						"content": "break acceptable use policies",
+						"correct": true
+					},
+					{
+						"id": "349067db-96fa-4fd1-83e4-21b7b37f655e",
+						"content": "destroying medical records",
+						"correct": true
+					},
+					{
+						"id": "f640f3ec-5304-409c-9671-758fe63a03d7",
+						"content": "stealing information",
+						"correct": true
+					},
+					{
+						"id": "97a040c8-0f4c-4b8e-b35a-ee9537decd36",
+						"content": "stealing office supplies",
+						"correct": false
+					},
+					{
+						"id": "17dfe450-9ee3-4a8e-bef1-40158dfe09cb",
+						"content": "making personal copies",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "Although office supplies are a valuable asset for an entity, they typically don't have any PHI (unless it's a reused thumbdrive that has not been reformatted or erased completely - but that's a **different  bad practice.**",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the 3 correct answers",
+				"title": "Examples of internal threats affecting PHI include...",
+				"titleType": "text",
+				"subtitle": "There are 3 correct answers",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "42d49854-c809-4458-9ca5-cd5332036ec7",
+			"type": "exit",
+			"subtype": "default",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "42d49854-c809-4458-9ca5-cd5332036ec7"
+			},
+			"data": {
+				"content": "<p>Nice work. You've completed this lesson.</p><p></p><p>Please close this tab and return to the Content tab to complete the course</p>",
+				"buttonText": "Exit Lesson",
+				"title": "That's it!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "Threats and Remedies",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090b3"
+}
