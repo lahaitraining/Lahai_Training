@@ -1,0 +1,540 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "87af5e22-2a42-4b2e-876a-3d52a6d3e202",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "87af5e22-2a42-4b2e-876a-3d52a6d3e202"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": false,
+				"title": "**Scenario #2**",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "903240af-db9c-421f-a13e-7c8452beeb9d",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "903240af-db9c-421f-a13e-7c8452beeb9d"
+			},
+			"data": {
+				"content": "# <center> Everybody loves a good story, let's take a look at Alex's horrible, very bad weekend.",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "009a4357-40ce-45b9-a384-cdfa5e0c5b59",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "009a4357-40ce-45b9-a384-cdfa5e0c5b59"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "fit_content_assets/iajobvfzqrootfupk9cy.png",
+						"caption": "## On a Friday, Alex, the Senior Practice Manager for a large multi-specialty group, stopped for coffee while going home. "
+					},
+					{
+						"image": "fit_content_assets/msk9ftr8iotdfoensz6m.png",
+						"caption": "## While paying, Alex did not notice that \"homework\" - an unencrypted thumb drive with information on 15 patients - had fallen to the floor."
+					},
+					{
+						"image": "fit_content_assets/qicmfx4ibuygoxphwmce.png",
+						"caption": "## Alex had dinner with friends, shopped for groceries, and went home and watched a movie."
+					},
+					{
+						"image": "fit_content_assets/uf7m8jxy8z1sahim9pcr.png",
+						"caption": "## On Sunday, Alex wanted to work using the thumb drive, and realized that it had been lost. "
+					},
+					{
+						"image": "fit_content_assets/voqzqeco3w7ew3uesv05.png",
+						"caption": "## Despite calling the coffee shop, the grocery store, the restaurant and friends, the thumb drive could not be located."
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "088ac165-6727-42f6-b86a-0ea36fdb5fef",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Choose the 3 correct answers",
+							"content": "What should Alex do? ",
+							"questionId": "8d3ea9b3-30f4-4ae8-8fe6-506d2003ba46",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Put the data on a disk next time.",
+								"correct": false,
+								"answerId": "23d6b67e-2add-4e14-8652-96403ddd2265",
+								"type": "text"
+							},
+							{
+								"content": "Report the breach to the HHS Office for Civil Rights.",
+								"correct": true,
+								"answerId": "f7097acf-c4c5-4f27-9b48-c4208f82ddd2",
+								"type": "text"
+							},
+							{
+								"content": "Notify the patients affected in writing.",
+								"correct": true,
+								"answerId": "4a594518-9422-459d-875d-38b2415076c3",
+								"type": "text"
+							},
+							{
+								"content": "Even if encrypted, not use thumb drives to transport patient PHI.",
+								"correct": true,
+								"answerId": "7ecb5eed-60fa-4847-80d3-24e18e7f6c64",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "088ac165-6727-42f6-b86a-0ea36fdb5fef"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 4,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "803a4c4a-7c4b-49eb-8434-2ea76813d288",
+						"content": "Put the data on a disk next time.",
+						"correct": false
+					},
+					{
+						"id": "c306a1ab-08ec-4b78-8fff-a39af0ad0133",
+						"content": "Report the breach to the HHS Office for Civil Rights.",
+						"correct": true
+					},
+					{
+						"id": "61945e73-d6b1-4215-bc98-2d55e7e7939f",
+						"content": "Notify the patients affected in writing.",
+						"correct": true
+					},
+					{
+						"id": "0746c728-2f38-4f48-bd0e-b54dfb6922a6",
+						"content": "Even if encrypted, not use thumb drives to transport patient PHI.",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "Unencrypted devices can be a real headache for HIPAA compliance.  Just ask the University of Rochester Medical Center (URMC) and Adult & Pediatric Dermatology, PC - see the next screen for details. ",
+					"incorrect": "",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Choose the 3 correct answers",
+				"title": "What should Alex do? ",
+				"titleType": "text",
+				"subtitle": "Choose the 3 correct answers",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "3d2b1f7b-fe6e-44a4-8ae7-041e5d01a140",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "When should the Office of Civil Rights be notified following a breach?",
+							"questionId": "ee4cb6f7-b4d2-4482-823a-782126176946",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Immediately",
+								"correct": false,
+								"answerId": "aad37fbb-e2bc-4b30-bcfc-1616e54030d6",
+								"type": "text"
+							},
+							{
+								"content": "Without unreasonable delay",
+								"correct": true,
+								"answerId": "838bf582-fd37-46b1-ba85-38ccb01aabc4",
+								"type": "text"
+							},
+							{
+								"content": "Within 24 hours",
+								"correct": false,
+								"answerId": "5a29ed80-d01b-480b-8439-134cc05ca2cd",
+								"type": "text"
+							},
+							{
+								"content": "The next time the patient comes into the office",
+								"correct": false,
+								"answerId": "9b70bf04-7143-4605-872d-4a5cb6b440b0",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "3d2b1f7b-fe6e-44a4-8ae7-041e5d01a140"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 3,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "0b3a1720-8f43-4964-97b1-e456a38e2b5a",
+						"content": "Immediately",
+						"correct": false
+					},
+					{
+						"id": "054ef54b-52b4-44ee-ac17-331321a3f2cd",
+						"content": "Without unreasonable delay",
+						"correct": true
+					},
+					{
+						"id": "fe335b23-b95d-49a4-a822-2d06ddc69f14",
+						"content": "Within 24 hours",
+						"correct": false
+					},
+					{
+						"id": "675dc38d-654d-4e28-9704-dcf31208c79d",
+						"content": "The next time the patient comes into the office",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "When should the Office of Civil Rights be notified following a breach?",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "a36f7b74-5b29-48a0-8f7a-9db39beb577e",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "a36f7b74-5b29-48a0-8f7a-9db39beb577e"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "The University of Rochester Medical Center (URMC) has agreed to pay $3 million to the Office for Civil Rights (OCR) at the U.S. Department of Health and Human Services (HHS), and take substantial corrective action to settle potential violations of the Health Insurance Portability and Accountability Act (HIPAA) Privacy and Security Rules. \n\nRMC filed breach reports with OCR in 2013 and 2017 following its discovery that protected health information (PHI) had been impermissibly disclosed through the loss of an unencrypted flash drive and theft of an unencrypted laptop, respectively. OCR's investigation revealed that URMC failed to conduct an enterprise-wide risk analysis; implement security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level; utilize device and media controls; and employ a mechanism to encrypt and decrypt electronic protected health information (ePHI) when it was reasonable and appropriate to do so.\n\nhttps://www.hhs.gov/about/news/2019/11/05/failure-to-encrypt-mobile-devices-leads-to-3-million-dollar-hipaa-settlement.html\n",
+						"title": "University of Rochester Medical Center (URMC)"
+					},
+					{
+						"content": "On October 7, 2011, HHS received notification from the Covered Entity regarding a breach of its unsecured electronic protected health information (ePHI). The Covered Entity reported that an unencrypted thumb drive that contained the ePHI relating to the performance of Mohs surgery of approximately 2,200 individuals was stolen from a vehicle of one its workforce members. The thumb drive was never recovered.\n\n The Covered Entity agrees to pay HHS the amount of $150,000.00 (“Resolution Amount”).\n\n\nhttps://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/enforcement/examples/apderm-resolution-agreement.pdf",
+						"title": "Adult & Pediatric Dermatology, PC"
+					}
+				],
+				"title": "Thumb drives can be evil...",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "1aa2045c-8d77-4a8d-a852-130e39d1cdbc",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select all that apply",
+							"content": "Which of the following practices can mitigate against losing unencrypted PHI?",
+							"questionId": "45a4654a-2cee-41fd-aa55-eecf858af71b",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Encrypt all data",
+								"correct": true,
+								"answerId": "982ef48e-46e9-46f4-bd29-72a6c4b7f89e",
+								"type": "text"
+							},
+							{
+								"content": "Encrypt all thumb drives",
+								"correct": true,
+								"answerId": "083f76cc-28dd-44d6-a6ce-3785453e408c",
+								"type": "text"
+							},
+							{
+								"content": "Don't use portable storage devices ",
+								"correct": true,
+								"answerId": "0e04e95c-b2f9-4357-9687-0afe04cd4d43",
+								"type": "text"
+							},
+							{
+								"content": "Carry multiple copies of thumb drives in case one is lost",
+								"correct": false,
+								"answerId": "4422c81e-8997-4765-9e44-01f1b72f1147",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "1aa2045c-8d77-4a8d-a852-130e39d1cdbc"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 4,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "816c3b4a-5a5b-4912-be02-df0858172d90",
+						"content": "Encrypt all data",
+						"correct": true
+					},
+					{
+						"id": "eb0d4eb1-8be7-4a1f-93d6-221bebb1aa19",
+						"content": "Encrypt all thumb drives",
+						"correct": true
+					},
+					{
+						"id": "f886e055-adaa-4905-920c-3dca0b1606ac",
+						"content": "Don't use portable storage devices ",
+						"correct": true
+					},
+					{
+						"id": "378d33e4-50ca-4fcf-a0b5-6b1bf82288c2",
+						"content": "Carry multiple copies of thumb drives in case one is lost",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select all correct answers",
+				"title": "Which of the following practices can mitigate against losing unencrypted PHI?",
+				"titleType": "text",
+				"subtitle": "Select all that apply",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "b7a68632-1aa7-428f-b364-4cd147f4fafa",
+			"type": "exit",
+			"subtype": "default",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "b7a68632-1aa7-428f-b364-4cd147f4fafa"
+			},
+			"data": {
+				"content": "<p>Nice work. You've completed this lesson.</p><p></p><p>Please close this tab and return to the Content tab to complete the course</p>",
+				"buttonText": "Exit Lesson",
+				"title": "That's it!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "Scenario #2",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090b6"
+}
