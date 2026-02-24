@@ -1,0 +1,586 @@
+{
+	"config": {
+		"background": "fit_content_assets/mrn1tobynht5qeh1v1lp.jpg",
+		"colors": {
+			"background": "#dae1e5",
+			"experimental": false,
+			"text": "#333",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\n\n\n/*/ Insert your company colors below,\nThe first four assets are the buttons in the course,\nFor the \".__active\" assets, reverse your colors (this is for when buttons are pressed)/*/\n\n.btn.btn-muted {background-color: white; color: black; border: 1px solid black;}\n.btn.btn-muted.__active {background-color: black; color: white; border: 1px solid black;}\n.btn.btn-solid {background-color: white; color: black; border: 1px solid black;}\n.btn.btn-solid.__active {background-color: black; color: white; border: 1px solid black;}\n\n/*/ This is the box in the corner of the screen that tells you the slide numbers /*/\n\n#lesson-header-nav {background-color: white; color: black; border: 1px solid black;}\n\n/*/ This is the progress bar at the top of the lesson /*/\n\n#indicator {background-color: white; color: black;}\n\n/*/ Below is the font for the lesson, you can change this by finding a font to import on Google Fonts /*/\n@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\nbody {font-family: 'Lato', sans-serif;}",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/ynuvnbd6ltswxzxvfegd.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "50031399-0383-4cbe-8761-6a17e5ff593e",
+			"type": "parallax",
+			"subtype": "multiple",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Image stack",
+			"templateDescription": "Create the illusion of 3-dimensions",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "50031399-0383-4cbe-8761-6a17e5ff593e"
+			},
+			"data": {
+				"images": [
+					"fit_content_assets/g0iw59everjmmckvmn5p.png",
+					"fit_content_assets/glvtnca3r3jgtwp3viad.png"
+				],
+				"caption": "Handling Contaminated Sharps\n",
+				"background": "",
+				"doneText": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "894c0c63-d7b2-4f68-b21e-9b3e9d5b9c1c",
+			"type": "image-slider",
+			"subtype": "multiple",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "894c0c63-d7b2-4f68-b21e-9b3e9d5b9c1c"
+			},
+			"data": {
+				"prompt": "Click down arrows for more information until you reach \"Continue\"\n",
+				"items": [
+					{
+						"content": "fit_content_assets/wzbe95irjksfyqqp2d7d.jpg",
+						"contentType": "image",
+						"position": "Top",
+						"color": "",
+						"caption": "## Bloodborne pathogens are microorganisms present in blood that can cause diseases such as Hepatitis B (HBV), Hepatitis C (HCV) and human immunodeficiency virus (HIV)",
+						"imagePosition": "Cover",
+						"captionStyle": "Light"
+					},
+					{
+						"content": "fit_content_assets/folzz6mjuqjfsdb4bgzt.jpg",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "none",
+						"caption": "## These diseases are spread when the blood from an infected person enters the body of someone who is not infected.",
+						"imagePosition": "Cover",
+						"captionStyle": "Transparent Light Text"
+					},
+					{
+						"content": "fit_content_assets/pfktcodwypgjm8xpysjm.jpg",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "none",
+						"caption": "## For workers who are continuously exposed to hazardous work environments, transmission occurs when sharps, such as needles, scalpels, broken glass, capillary tubes, and exposed ends of dental wires, penetrate their skin.",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "# Therefore, careful handling of contaminated sharps spells the difference between health and disease.",
+						"contentType": "text",
+						"position": "Bottom",
+						"color": "",
+						"caption": "",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					}
+				],
+				"arrows": true,
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "02c39f41-3739-482d-b6be-3bc4060bdb8c",
+			"type": "comparison",
+			"subtype": "reveal-further-information",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Comparison",
+			"templateDescription": "Juxtapose two items in a slider",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "02c39f41-3739-482d-b6be-3bc4060bdb8c"
+			},
+			"data": {
+				"before": {
+					"contentType": "image",
+					"content": "fit_content_assets/ormdnqadvcgvhuoqinnu.jpg",
+					"label": "We are advised to consider the use of safer medical devices, such as needleless equipment or those that have a built-in protection."
+				},
+				"after": {
+					"contentType": "text",
+					"content": "Don't be afraid to reach out to us with regards to the identification, evaluation and selection of effective work practices, as well as the use of safer medical devices. ",
+					"label": "We will ensure the documentation of your input as well as the implementation of these devices."
+				},
+				"startPosition": "Before - Start with the first section visible",
+				"prompt": "Drag slider from R to L to reveal the content\n",
+				"doneText": "Continue",
+				"title": "Always opt for safer devices.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "352b1463-5b87-4f0f-bc4e-99330b93bb2c",
+			"type": "list",
+			"subtype": "list",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Bulleted list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "352b1463-5b87-4f0f-bc4e-99330b93bb2c"
+			},
+			"data": {
+				"list": [
+					"Discard all contaminated sharps immediately after use.",
+					"Doing so can prevent injury and reduce the risk of exposure to bloodborne pathogens."
+				],
+				"doneText": null,
+				"title": "Immediate disposal is key.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "caa201af-ecb7-4c0a-a421-481c0c6a71f6",
+			"type": "drag-to-match",
+			"subtype": "classify-three",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Drag to match",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Where should they go?",
+							"content": "fit_content_assets/lfrm4d11ic5udw9sab52.png",
+							"questionId": "ca9bd753-8dea-467e-a638-78da16749297",
+							"type": "image"
+						},
+						"answers": [
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "4d765beb-d6cc-40f0-b6f7-cde74cb3cefb",
+								"type": "text"
+							},
+							{
+								"content": "Ordinary garbage bins",
+								"correct": false,
+								"answerId": "9f3d9508-ac8d-4bb9-ae5e-06596b9e54ec",
+								"type": "text"
+							},
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "568e02d5-3d48-4677-9ae6-7686642868ff",
+								"type": "text"
+							},
+							{
+								"content": "Sharp Disposal Container",
+								"correct": true,
+								"answerId": "476d21c4-0c68-4268-aacb-4cb7a817f5d8",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Where should they go?",
+							"content": "fit_content_assets/phfpaw87wmguwzr0gbpk.png",
+							"questionId": "d61613ba-3f91-4b11-8079-61bce42e3e74",
+							"type": "image"
+						},
+						"answers": [
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "d2355972-dc4c-4689-a037-f1ba31e7c0ee",
+								"type": "text"
+							},
+							{
+								"content": "Ordinary garbage bins",
+								"correct": false,
+								"answerId": "03ee02dc-3ddb-44ef-b709-7b846d5e7efc",
+								"type": "text"
+							},
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "b779c326-db79-485a-997a-693ac899c2ed",
+								"type": "text"
+							},
+							{
+								"content": "Sharp Disposal Container",
+								"correct": true,
+								"answerId": "b25f873f-9f5e-45fc-8a13-6e8785414249",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Where should they go?",
+							"content": "fit_content_assets/y1ljy7vu6zc7nfhu8tix.png",
+							"questionId": "8659e820-9823-4be9-b126-858bd28b9bfb",
+							"type": "image"
+						},
+						"answers": [
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "823dea0a-10fc-40cd-881f-1d9f07bdb641",
+								"type": "text"
+							},
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "84a5ec67-fb86-47b6-9acc-641571b94045",
+								"type": "text"
+							},
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "5a96e981-5424-414f-90f8-e6fe15fa0380",
+								"type": "text"
+							},
+							{
+								"content": "Ordinary garbage bins",
+								"correct": true,
+								"answerId": "c4109781-cb62-4faf-9470-44bcd0d0ab9c",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Where should they go?",
+							"content": "fit_content_assets/qutim4irek3ulz56iu5s.png",
+							"questionId": "7f6ca172-314f-4223-80be-c011b56a92d7",
+							"type": "image"
+						},
+						"answers": [
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "45e39f19-bd09-48d6-8625-297bd5e4562b",
+								"type": "text"
+							},
+							{
+								"content": "Sharp Disposal Container",
+								"correct": false,
+								"answerId": "69e90b63-9929-4523-b440-976a6f7158b3",
+								"type": "text"
+							},
+							{
+								"content": "Ordinary garbage bins",
+								"correct": false,
+								"answerId": "04cbb53a-e40a-42fd-aa61-fd5fd98c1bd2",
+								"type": "text"
+							},
+							{
+								"content": "Sharp Disposal Container",
+								"correct": true,
+								"answerId": "72ec39da-0558-4bab-a586-087d7eda18dc",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "caa201af-ecb7-4c0a-a421-481c0c6a71f6"
+			},
+			"data": {
+				"reject": true,
+				"list": [
+					{
+						"name": "Sharp Disposal Container",
+						"nameType": "text",
+						"image": "fit_content_assets/lfrm4d11ic5udw9sab52.png",
+						"imageType": "image"
+					},
+					{
+						"name": "Sharp Disposal Container",
+						"nameType": "text",
+						"image": "fit_content_assets/phfpaw87wmguwzr0gbpk.png",
+						"imageType": "image"
+					},
+					{
+						"name": "Ordinary garbage bins",
+						"nameType": "text",
+						"image": "fit_content_assets/y1ljy7vu6zc7nfhu8tix.png",
+						"imageType": "image"
+					},
+					{
+						"name": "Sharp Disposal Container",
+						"nameType": "text",
+						"image": "fit_content_assets/qutim4irek3ulz56iu5s.png",
+						"imageType": "image"
+					}
+				],
+				"doneText": "Continue",
+				"answer": {
+					"takeaway": "Contaminated sharps objects like **needles**, **scalpels**, **broken glass**, etc. must be placed in sharp disposal containers to avoid further contamination.\n",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "\n",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Put objects to the correct bins",
+				"title": "Where should they go?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 2
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "1aab8587-cd85-45c0-a223-6c0b015dd2a7",
+			"type": "reveal",
+			"subtype": "reveal",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Reveal",
+			"templateDescription": "Flip cards to reveal more details",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "1aab8587-cd85-45c0-a223-6c0b015dd2a7"
+			},
+			"data": {
+				"content": [
+					{
+						"title": "Accessibility ",
+						"description": "Sharp disposal containers must be readily accessible to workers, especially near laundry areas."
+					},
+					{
+						"title": "Placement",
+						"description": "It is best to placed them on carts so psychiatric patients and children won't easily reach the sharps.\n\t\n"
+					},
+					{
+						"title": "Management",
+						"description": "They should always be changed routinely because reusing containers can greatly expose workers and heighten the risk of sharp cuts or injuries.\n"
+					}
+				],
+				"prompt": "Select each item to find out more",
+				"focus": true,
+				"doneText": "Continue",
+				"title": "Learn more about sharp disposal containers.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "6820e423-0680-4cf1-87e2-afd0a060eddb",
+			"type": "image-waypoints",
+			"subtype": "unguided",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Image waypoints",
+			"templateDescription": "Highlight important details in an image",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "6820e423-0680-4cf1-87e2-afd0a060eddb"
+			},
+			"data": {
+				"guided": false,
+				"doneText": "Continue",
+				"url": "fit_content_assets/iq7heqli5kciybvlcx0c.png",
+				"prompt": "Explore the image.  Click on the dots to learn more.\n",
+				"appearance": {
+					"waypointColor": "White"
+				},
+				"lightbox": {
+					"background": "#FFFFFF",
+					"textColor": "Black"
+				},
+				"waypoints": [
+					{
+						"image": null,
+						"caption": "It should be puncture-resistant.",
+						"narration": null,
+						"region": {
+							"yMax": 0.9700000000000002,
+							"xMax": 0.3903452991452991,
+							"yMin": 0.5066666666666667,
+							"xMin": 0.08671452991452991
+						}
+					},
+					{
+						"image": null,
+						"caption": "It should be leakproof and closable. ",
+						"narration": null,
+						"region": {
+							"yMax": 0.3733333333333334,
+							"xMax": 0.7091931623931624,
+							"yMin": 0,
+							"xMin": 0.1604034188034188
+						}
+					},
+					{
+						"image": null,
+						"caption": "It should be carefully labeled.",
+						"narration": null,
+						"region": {
+							"yMax": 0.96,
+							"xMax": 0.6826495726495726,
+							"yMin": 0.4266666666666667,
+							"xMin": 0.3165128205128205
+						}
+					},
+					{
+						"image": null,
+						"caption": "It should be color-coded red.",
+						"narration": "",
+						"region": {
+							"yMax": 0.8866666666666667,
+							"xMax": 0.8213105413105413,
+							"yMin": 0.5033333333333333,
+							"xMin": 0.5233048433048433
+						}
+					},
+					{
+						"image": null,
+						"caption": "It should be kept upright to avoid spillage.",
+						"narration": "",
+						"region": {
+							"yMax": 0.9866666666666667,
+							"xMax": 0.7182564102564103,
+							"yMin": 0.023333333333333334,
+							"xMin": 0.2613219373219373
+						}
+					}
+				],
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "1329db91-fbef-42b1-96f2-5e9de256fb52",
+			"type": "exit",
+			"subtype": "default",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "1329db91-fbef-42b1-96f2-5e9de256fb52"
+			},
+			"data": {
+				"content": "Nice work. You've completed this lesson.\n\nPlease close this tab and return to the Content tab to complete the course",
+				"buttonText": "",
+				"title": "That's it!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "Handling Contaminated Sharps",
+	"index": 0,
+	"scorm": true,
+	"id": "699b605dd964e23dbc3f5563"
+}
