@@ -1,0 +1,825 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "e839a678-d608-4ac8-88d1-bcaa5633570a",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "e839a678-d608-4ac8-88d1-bcaa5633570a"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": true,
+				"title": "**HIPAA Overview**",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "9d968e01-e704-437f-90f6-bca74a329c25",
+			"type": "scratch-to-reveal",
+			"subtype": "scratch-to-reveal",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Scratch to reveal",
+			"templateDescription": "Scratch to reveal the content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "9d968e01-e704-437f-90f6-bca74a329c25"
+			},
+			"data": {
+				"before": {
+					"label": "",
+					"content": "fit_content_assets/mh9jcyzpiyxk4mmkopwl.png",
+					"contentType": "image"
+				},
+				"after": {
+					"label": "",
+					"content": "# Health Insurance Portability and Accountability Act (1996)",
+					"contentType": "text"
+				},
+				"canvasBackground": null,
+				"prompt": "Scratch to reveal the content",
+				"doneText": "Next",
+				"title": "**So what is HIPAA?**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "85a8bdfc-909c-4279-b871-b4882ae15a5d",
+			"type": "reveal",
+			"subtype": "reveal",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Reveal",
+			"templateDescription": "Flip cards to reveal more details",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "85a8bdfc-909c-4279-b871-b4882ae15a5d"
+			},
+			"data": {
+				"content": [
+					{
+						"title": "**Portability**",
+						"description": "## **Portability** ensures that workers can have continuous health insurance when they change or lose jobs."
+					},
+					{
+						"title": "**Protection**",
+						"description": "## **Protection** to ensure that patient information and healthcare data are kept secure and confidential."
+					},
+					{
+						"title": "**Accountability**",
+						"description": "## **Accountability**  requires covered entities to notify the government and patients of unauthorized disclosures of  personal health information."
+					}
+				],
+				"prompt": "Select each item to find out more",
+				"focus": true,
+				"doneText": "Next",
+				"title": "**HIPAA provides...**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "8286fe93-a8da-4ed2-850b-0db17ecb84d1",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Health Insurance Portability and Accountability Act ",
+							"content": "Portability",
+							"questionId": "eea480c5-7ec2-4db0-aacf-191c3bb2e010",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Accountability",
+								"correct": false,
+								"answerId": "517457f2-7bde-4030-b3c3-8b47c22ac965",
+								"type": "text"
+							},
+							{
+								"content": "Protection",
+								"correct": false,
+								"answerId": "809e7487-ca07-406f-a2ff-ec05d144d31b",
+								"type": "text"
+							},
+							{
+								"content": "Accessibility",
+								"correct": false,
+								"answerId": "8a09af6f-6d6b-4118-b349-7ffab25ff4f6",
+								"type": "text"
+							},
+							{
+								"content": "Portability",
+								"correct": true,
+								"answerId": "3c25225d-fabf-4929-ac2e-0d1b79c55d21",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Health Insurance Portability and Accountability Act ",
+							"content": "Accountability",
+							"questionId": "d6cf58af-61b5-4f00-92b1-828ca45c7430",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Portability",
+								"correct": false,
+								"answerId": "338e0f42-6817-48eb-853b-61dfacba1ef0",
+								"type": "text"
+							},
+							{
+								"content": "Protection",
+								"correct": false,
+								"answerId": "e9b7837d-3957-4b6a-93c8-8b01500ace85",
+								"type": "text"
+							},
+							{
+								"content": "Accessibility",
+								"correct": false,
+								"answerId": "33df43c3-1308-429c-9ae0-e715c8c0e025",
+								"type": "text"
+							},
+							{
+								"content": "Accountability",
+								"correct": true,
+								"answerId": "ddfba288-ecb9-4f70-a3f6-4109d2e305d3",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "8286fe93-a8da-4ed2-850b-0db17ecb84d1"
+			},
+			"data": {
+				"words": [
+					"Portability",
+					"Accountability",
+					"Protection",
+					"Accessibility"
+				],
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "The HIPAA legislation covers both **portability** - employees more easily keeping their insurance when changing jobs - and **accountability** - ensuring that providers and payers protect the privacy and security of health information.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "Health Insurance Portability and Accountability Act ",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "564fbe1e-7c2d-441e-ab03-55c489966e4b",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select the 3 that apply",
+							"content": "What does HIPAA provide?",
+							"questionId": "8c53c26f-95d9-4f44-b1f4-44f3d39f7c26",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Protection",
+								"correct": true,
+								"answerId": "9df55f6a-cd88-4ed4-9f30-16265d73be12",
+								"type": "text"
+							},
+							{
+								"content": "Accountability",
+								"correct": true,
+								"answerId": "d099493e-62be-4d94-965b-9b831a4cdbbf",
+								"type": "text"
+							},
+							{
+								"content": "Portability",
+								"correct": true,
+								"answerId": "020fed06-e43c-4e8e-b33d-5a97978873db",
+								"type": "text"
+							},
+							{
+								"content": "Affordability",
+								"correct": false,
+								"answerId": "f0a1e81f-d317-4d2f-8950-5710520e0cd6",
+								"type": "text"
+							},
+							{
+								"content": "Insurance",
+								"correct": false,
+								"answerId": "57d24c58-aaa5-4acb-9d28-7d30704e97db",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "564fbe1e-7c2d-441e-ab03-55c489966e4b"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 4,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "3745ae79-028f-4765-ab0a-9b5b71c8a403",
+						"content": "Protection",
+						"correct": true
+					},
+					{
+						"id": "4bed7c67-7372-4a88-a4ac-1eb20f392ba2",
+						"content": "Accountability",
+						"correct": true
+					},
+					{
+						"id": "3bb58289-3c71-4d13-81c4-c32a04922d3a",
+						"content": "Portability",
+						"correct": true
+					},
+					{
+						"id": "d1f3588f-75f1-4b07-bac2-41bfe1569fab",
+						"content": "Affordability",
+						"correct": false
+					},
+					{
+						"id": "7a7d0b55-1bd7-4bfe-a8f6-5b9ea2edbf56",
+						"content": "Insurance",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "HIPAA has defined standards to enable electronic transactions while respecting and defending a patient's expectations of privacy and security.  **Affordability**, although a current concern, was **not** included in HIPAA.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the 3 correct answers",
+				"title": "What does HIPAA provide?",
+				"titleType": "text",
+				"subtitle": "Select the 3 that apply",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "bc8114fe-229a-4d55-966e-d9a3cec34203",
+			"type": "text-sequence",
+			"subtype": "text-sequence",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Sequence",
+			"templateDescription": "Display a sequence of text",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "bc8114fe-229a-4d55-966e-d9a3cec34203"
+			},
+			"data": {
+				"prompt": "Read more",
+				"label": "Step",
+				"canGoBack": true,
+				"doneText": "Next",
+				"content": [
+					"## improve portability and continuity of health insurance coverage",
+					"## combat waste, fraud, and abuse in health insurance and health care delivery",
+					"## promote the use of medical savings accounts",
+					"## improve access to long-term care services and coverage",
+					"## simplify the administration of health insurance",
+					"Source: PUBLIC LAW 104–191—AUG. 21, 1996"
+				],
+				"title": "**HIPAA was intended to...**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "9716a480-51dc-49ce-b86c-f59e990d9c41",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "9716a480-51dc-49ce-b86c-f59e990d9c41"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more<br><br>Source: hhs.gov",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "This rule defined:\n<ul>\n<li>Electronic transaction standards - rules for electronic exchange (e.g., claims, eligibility, payments)\n<li>Standard code sets (e.g., ICD-10, CPT)\n<li>Unique identifiers - healthcare plan (HPID), national provider (NPI), employer (EIN)<br><br>",
+						"title": "## **Administrative Simplification Rule**"
+					},
+					{
+						"content": "The HIPAA **Privacy Rule** establishes national standards to protect individuals’ medical records and other personal health information and applies to health plans, health care clearinghouses, and those health care providers that conduct certain health care transactions electronically. ",
+						"title": "## **Privacy Rule of 2000**"
+					},
+					{
+						"content": "The HIPAA **Security Rule** establishes national standards to protect individuals’ electronic personal health information that is created, received, used, or maintained by a covered entity.<br><br>The **Security Rule** requires appropriate administrative, physical and technical safeguards to ensure the confidentiality, integrity, and security of electronic protected health information.",
+						"title": "## **Security Rule of 2003**"
+					},
+					{
+						"content": "The HIPAA **Breach Notification Rule**, 45 CFR §§ 164.400-414, requires HIPAA covered entities and their business associates to provide notification following a breach of unsecured protected health information. ",
+						"title": "## **Breach Notification Rule**"
+					}
+				],
+				"title": "**Major Parts of HIPAA include...**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "049d0574-9c9c-4966-9a5f-87592ef61d1a",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "The HIPAA Security Rule establishes national standards to protect individuals’ electronic personal health information.",
+							"content": "national",
+							"questionId": "b3d3a1ae-7394-488e-b0c1-5cf4ccd84fb4",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "local",
+								"correct": false,
+								"answerId": "1af41878-5c4a-424e-b879-e46e84d3bd6d",
+								"type": "text"
+							},
+							{
+								"content": "regional",
+								"correct": false,
+								"answerId": "406f8f64-c688-48c2-8e5a-a71e1628613b",
+								"type": "text"
+							},
+							{
+								"content": "international",
+								"correct": false,
+								"answerId": "3b423120-1670-4ed5-8683-fb76f76bf805",
+								"type": "text"
+							},
+							{
+								"content": "national",
+								"correct": true,
+								"answerId": "2edae84a-f320-40c9-bd26-629303a06d51",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "049d0574-9c9c-4966-9a5f-87592ef61d1a"
+			},
+			"data": {
+				"words": [
+					"national",
+					"local",
+					"regional",
+					"international"
+				],
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "HIPAA was a national legislation to set a minimum standard for all Americans.  States may impose more restrictive regulations.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "The HIPAA Security Rule establishes national standards to protect individuals’ electronic personal health information.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "2c2c546c-6dcd-49e8-aecf-7adc888e3928",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "2c2c546c-6dcd-49e8-aecf-7adc888e3928"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "fit_content_assets/kyvpgvcyqln3nb0v2vdg.jpg",
+						"caption": "# **So what does HIPAA protect?**\n\n## Any data in a patient's medical record that can be used to personally identify them - in HIPAA terms, protected health information (PHI)."
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "76510023-af25-45f8-ab8b-742725162a99",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "76510023-af25-45f8-ab8b-742725162a99"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "",
+						"caption": "# **Who must comply?**"
+					},
+					{
+						"image": "",
+						"caption": "# Covered entities, business associates, and clearinghouses"
+					},
+					{
+						"image": "",
+						"caption": "# Covered Entities include:<br>\n## **Healthcare Professionals**<br>(e.g., physicians, nurses, physical therapists)<br>\n## **Healthcare Facilities**<br>(e.g., hospitals, nursing homes)<br>\n## **Healthcare Plans**<br>(e.g., insurance, HMOs, Medicare, Medicaid)<br>\n## **Clearinghouses**<br>(e.g., aggregators of healthcare data)"
+					},
+					{
+						"image": "",
+						"caption": "# **Business Associates include:**<br><br>Any organization or individual that has access to a covered entity's PHI"
+					},
+					{
+						"image": "",
+						"caption": "# **Clearinghouses**:<br><br>\n## Intermediaries that receive data from covered entities; frequently transforms data from one format to another"
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "64c9bc09-3a7d-48ea-87f4-d0ca5336b225",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select all that apply",
+							"content": "Who must comply with HIPAA?",
+							"questionId": "2df8e507-5a77-4e3d-8356-ac8dbfbfba48",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Business Associates",
+								"correct": true,
+								"answerId": "5695356f-e87f-424a-82af-b29bdf0964cf",
+								"type": "text"
+							},
+							{
+								"content": "Covered Entities",
+								"correct": true,
+								"answerId": "22e38939-e397-4a22-9ed8-26eff54b5ca1",
+								"type": "text"
+							},
+							{
+								"content": "Restaurants",
+								"correct": false,
+								"answerId": "678dc577-e3ce-4240-b0a4-43c1036b0884",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "64c9bc09-3a7d-48ea-87f4-d0ca5336b225"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 3,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "4e3bf9fd-d270-4ac7-b25e-706a125cab31",
+						"content": "Business Associates",
+						"correct": true
+					},
+					{
+						"id": "58170232-2032-4c9a-8e03-409f5684ec06",
+						"content": "Covered Entities",
+						"correct": true
+					},
+					{
+						"id": "5809a189-731b-49df-87a5-03e406940138",
+						"content": "Restaurants",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "HIPAA was designed to address the core organizations - payers, providers and electronic transaction intermediaries - that create, store, manage or transmit personal health data.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select all correct answers",
+				"title": "Who must comply with HIPAA?",
+				"titleType": "text",
+				"subtitle": "Select all that apply",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "562a8d9e-5dc7-488d-adcb-6b78712cfabe",
+			"type": "list",
+			"subtype": "list",
+			"name": 12,
+			"displayIndex": 12,
+			"templateName": "Bulleted list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "562a8d9e-5dc7-488d-adcb-6b78712cfabe"
+			},
+			"data": {
+				"list": [
+					"The HIPAA legislation covers both portability and accountability.",
+					"HIPAA was designed to address the core organizations - payers, providers and electronic transaction intermediaries.",
+					"HIPAA was intended to combat waste, fraud, and abuse in health insurance and health care delivery.",
+					"Security Rule establishes national standards."
+				],
+				"doneText": null,
+				"title": "HIPAA:",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "bfef1b92-a8f0-4d83-ad92-6121f7e6e975",
+			"type": "exit",
+			"subtype": "default",
+			"name": 13,
+			"displayIndex": 13,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "bfef1b92-a8f0-4d83-ad92-6121f7e6e975"
+			},
+			"data": {
+				"content": "<p>Nice work. You've completed this lesson.</p><p></p><p>Please close this tab and return to the Content tab to complete the course.</p>",
+				"buttonText": "Exit Lesson",
+				"title": "That's it!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "HIPAA Overview",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090ae"
+}
