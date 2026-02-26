@@ -145,7 +145,7 @@
 				},
 				"after": {
 					"contentType": "text",
-					"content": "Don't be afraid to reach out to us with regards to the identification, evaluation and selection of effective work practices, as well as the use of safer medical devices. ",
+					"content": "Don't be afraid to reach out to us with regard to the identification, evaluation and selection of effective work practices, as well as the use of safer medical devices. ",
 					"label": "We will ensure the documentation of your input as well as the implementation of these devices."
 				},
 				"startPosition": "Before - Start with the first section visible",
@@ -217,32 +217,32 @@
 						"question": {
 							"category": "Where should they go?",
 							"content": "fit_content_assets/lfrm4d11ic5udw9sab52.png",
-							"questionId": "ca9bd753-8dea-467e-a638-78da16749297",
+							"questionId": "b2a8c3ee-bc84-435f-aa33-9357ce0df3e8",
 							"type": "image"
 						},
 						"answers": [
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "4d765beb-d6cc-40f0-b6f7-cde74cb3cefb",
+								"answerId": "0db7dd75-7a23-4614-9be8-0d99e5a1ed8a",
 								"type": "text"
 							},
 							{
 								"content": "Ordinary garbage bins",
 								"correct": false,
-								"answerId": "9f3d9508-ac8d-4bb9-ae5e-06596b9e54ec",
+								"answerId": "6c483b16-bf70-4d84-ba30-3cc5ca150a02",
 								"type": "text"
 							},
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "568e02d5-3d48-4677-9ae6-7686642868ff",
+								"answerId": "42c2ae86-07dc-47c0-b469-adebf839d6cc",
 								"type": "text"
 							},
 							{
 								"content": "Sharp Disposal Container",
 								"correct": true,
-								"answerId": "476d21c4-0c68-4268-aacb-4cb7a817f5d8",
+								"answerId": "9254d356-3752-46d5-bec0-ae8ea0b3a311",
 								"type": "text"
 							}
 						]
@@ -251,32 +251,32 @@
 						"question": {
 							"category": "Where should they go?",
 							"content": "fit_content_assets/phfpaw87wmguwzr0gbpk.png",
-							"questionId": "d61613ba-3f91-4b11-8079-61bce42e3e74",
+							"questionId": "61e787ef-4569-4630-b9b6-44a962d8d6c1",
 							"type": "image"
 						},
 						"answers": [
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "d2355972-dc4c-4689-a037-f1ba31e7c0ee",
+								"answerId": "124ed88c-e244-402d-910d-53c80595bbe6",
 								"type": "text"
 							},
 							{
 								"content": "Ordinary garbage bins",
 								"correct": false,
-								"answerId": "03ee02dc-3ddb-44ef-b709-7b846d5e7efc",
+								"answerId": "91e6890b-c07b-4b64-ab16-be29a17a127a",
 								"type": "text"
 							},
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "b779c326-db79-485a-997a-693ac899c2ed",
+								"answerId": "158971cb-dd67-4cd3-bb6a-ee0b0d083600",
 								"type": "text"
 							},
 							{
 								"content": "Sharp Disposal Container",
 								"correct": true,
-								"answerId": "b25f873f-9f5e-45fc-8a13-6e8785414249",
+								"answerId": "8d515fb4-011c-4bf4-9b3f-dec6a5ab8d50",
 								"type": "text"
 							}
 						]
@@ -285,32 +285,32 @@
 						"question": {
 							"category": "Where should they go?",
 							"content": "fit_content_assets/y1ljy7vu6zc7nfhu8tix.png",
-							"questionId": "8659e820-9823-4be9-b126-858bd28b9bfb",
+							"questionId": "405fcc1e-b79d-4251-b039-e7e77b0629e4",
 							"type": "image"
 						},
 						"answers": [
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "823dea0a-10fc-40cd-881f-1d9f07bdb641",
+								"answerId": "e123021c-de9e-4c98-be20-0f3abeb3fd69",
 								"type": "text"
 							},
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "84a5ec67-fb86-47b6-9acc-641571b94045",
+								"answerId": "2a83b8ee-c3af-413e-9614-a0eb4690f258",
 								"type": "text"
 							},
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "5a96e981-5424-414f-90f8-e6fe15fa0380",
+								"answerId": "b14a2080-65f0-43bb-bcc2-82c2ef4551d0",
 								"type": "text"
 							},
 							{
 								"content": "Ordinary garbage bins",
 								"correct": true,
-								"answerId": "c4109781-cb62-4faf-9470-44bcd0d0ab9c",
+								"answerId": "4622fc68-2327-4364-b12e-04078fad42f9",
 								"type": "text"
 							}
 						]
@@ -319,32 +319,32 @@
 						"question": {
 							"category": "Where should they go?",
 							"content": "fit_content_assets/qutim4irek3ulz56iu5s.png",
-							"questionId": "7f6ca172-314f-4223-80be-c011b56a92d7",
+							"questionId": "29b25ac8-b560-4a43-a911-f1a6fdbfa886",
 							"type": "image"
 						},
 						"answers": [
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "45e39f19-bd09-48d6-8625-297bd5e4562b",
+								"answerId": "9fed58f1-b432-4ed3-bde8-34da5b7219cc",
 								"type": "text"
 							},
 							{
 								"content": "Sharp Disposal Container",
 								"correct": false,
-								"answerId": "69e90b63-9929-4523-b440-976a6f7158b3",
+								"answerId": "0d6b92f9-1494-4d41-9ad1-c6a119ee7954",
 								"type": "text"
 							},
 							{
 								"content": "Ordinary garbage bins",
 								"correct": false,
-								"answerId": "04cbb53a-e40a-42fd-aa61-fd5fd98c1bd2",
+								"answerId": "49f1ddaa-078a-4573-ac01-38372dfd1ca6",
 								"type": "text"
 							},
 							{
 								"content": "Sharp Disposal Container",
 								"correct": true,
-								"answerId": "72ec39da-0558-4bab-a586-087d7eda18dc",
+								"answerId": "55b204a9-bcf2-47c4-9789-a144eaf4d6eb",
 								"type": "text"
 							}
 						]
